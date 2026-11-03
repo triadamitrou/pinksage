@@ -9,7 +9,9 @@ import { shop } from "@/lib/shop";
 const NAV = [
   { href: "/", label: "Today", hint: "What needs doing" },
   { href: "/products", label: "Products", hint: "The sheet" },
+  { href: "/new", label: "Set up a product", hint: "Name it, price it, write its recipe" },
   { href: "/flowers", label: "Flower stock", hint: "What is in the buckets" },
+  { href: "/report", label: "The fortnight", hint: "Deliveries, and what is at risk" },
   { href: "/sheet", label: "Spreadsheet", hint: "Excel in and out" },
   { href: "/publish", label: "Publish", hint: "Send it to the website" },
 ];

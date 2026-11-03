@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Cell } from "@/components/Cell";
+import VarietyPanel from "@/components/VarietyPanel";
+import { daysLabel } from "@/lib/days";
 import { availabilityOf } from "@/lib/availability";
 import { useStudio } from "@/lib/store";
 import { useGridKeys } from "@/lib/useGridKeys";
@@ -18,7 +20,7 @@ import { useGridKeys } from "@/lib/useGridKeys";
 export default function Flowers() {
   const { varieties, products, stock, updateVariety, addVariety, exampleLoaded } =
     useStudio();
-  const [expanded, setExpanded] = useState<string | null>(null);
+  const [openId, setOpenId] = useState<string | null>(null);
   const [newName, setNewName] = useState("");
   const onGridKey = useGridKeys();
 
@@ -42,16 +44,20 @@ export default function Flowers() {
 
   const totalStems = varieties.reduce((n, v) => n + v.stems, 0);
 
+  const open = varieties.find((v) => v.id === openId) ?? null;
+
   return (
-    <div className="u-wrap max-w-5xl py-7 lg:py-10">
+    <div className="flex min-h-dvh flex-col lg:flex-row">
+      <div className="u-wrap min-w-0 max-w-5xl flex-1 py-7 lg:py-10">
       <header className="border-line flex flex-wrap items-end justify-between gap-4 border-b pb-5">
         <div>
           <h1 className="u-serif text-[1.75rem] leading-tight lg:text-[2.1rem]">
             Flower stock
           </h1>
           <p className="text-ink-2 mt-1 max-w-[56ch] text-[0.9rem] leading-relaxed">
-            Count the buckets, type the numbers. Everything on the sheet
-            that uses a variety recalculates as the number changes.
+            Count the buckets, type the numbers. Open a row to see what
+            that one flower decides, and what a different count would
+            change before changing it.
           </p>
         </div>
         <p className="u-num text-ink-3 text-[0.78rem]">
@@ -61,7 +67,8 @@ export default function Flowers() {
 
       {exampleLoaded && (
         <p className="border-blush bg-blush-wash text-blush mt-5 rounded-md border-l-2 px-3 py-2 text-[0.8rem]">
-          These stem counts are example figures, not a real count. The
+          Some of these counts came from the example figures rather than a
+          real count. The
           variety names are real: each one is read out of Pink Sage&rsquo;s own
           product descriptions.
         </p>
@@ -90,17 +97,23 @@ export default function Flowers() {
           <tbody onKeyDown={onGridKey}>
             {varieties.map((v) => {
               const u = usage.get(v.id) ?? { used: 0, blocking: [] };
-              const open = expanded === v.id;
               return (
-                <tr key={v.id} className={open ? "bg-sage-wash" : ""}>
+                <tr
+                  key={v.id}
+                  className={openId === v.id ? "bg-sage-wash" : ""}
+                >
                   <td>
-                    <Cell
-                      value={v.name}
-                      onCommit={(next) =>
-                        updateVariety(v.id, { name: next.trim() || v.name })
-                      }
-                      display={<span className="font-medium">{v.name}</span>}
-                    />
+                    {/* The name opens the row sideways rather than
+                        renaming in place: renaming a flower is rare,
+                        looking at what it decides is the daily job. */}
+                    <button
+                      type="button"
+                      data-cell
+                      onClick={() => setOpenId(v.id)}
+                      className="u-cell font-medium"
+                    >
+                      {v.name}
+                    </button>
                   </td>
                   <td>
                     <Cell
@@ -142,13 +155,16 @@ export default function Flowers() {
                     />
                   </td>
                   <td>
-                    <Cell
-                      value={v.delivery}
-                      placeholder="which days"
-                      onCommit={(next) =>
-                        updateVariety(v.id, { delivery: next })
-                      }
-                    />
+                    {/* Set with toggles in the panel, not typed here: the
+                        report counts the days between deliveries. */}
+                    <button
+                      type="button"
+                      data-cell
+                      onClick={() => setOpenId(v.id)}
+                      className={`u-cell ${v.days.length ? "" : "text-ink-3"}`}
+                    >
+                      {daysLabel(v.days) || "which days"}
+                    </button>
                   </td>
                   <td className="u-num text-ink-2 px-2.5 text-right">
                     {u.used || <span className="text-ink-3">0</span>}
@@ -157,8 +173,7 @@ export default function Flowers() {
                     {u.blocking.length ? (
                       <button
                         type="button"
-                        onClick={() => setExpanded(open ? null : v.id)}
-                        aria-expanded={open}
+                        onClick={() => setOpenId(v.id)}
                         className="text-blush text-left text-[0.8rem] font-semibold"
                       >
                         {u.blocking.length} product
@@ -166,18 +181,6 @@ export default function Flowers() {
                       </button>
                     ) : (
                       <span className="text-ink-3 text-[0.8rem]">-</span>
-                    )}
-                    {open && (
-                      <ul className="text-ink-2 mt-1 mb-2 text-[0.78rem]">
-                        {u.blocking.slice(0, 10).map((name) => (
-                          <li key={name}>{name}</li>
-                        ))}
-                        {u.blocking.length > 10 && (
-                          <li className="text-ink-3">
-                            and {u.blocking.length - 10} more
-                          </li>
-                        )}
-                      </ul>
                     )}
                   </td>
                 </tr>
@@ -216,6 +219,9 @@ export default function Flowers() {
           .
         </p>
       </form>
+      </div>
+
+      {open && <VarietyPanel variety={open} onClose={() => setOpenId(null)} />}
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import { daysLabel, parseDays } from "./days";
 import type { Ingredient, Product, Variety } from "./types";
 
 /**
@@ -60,9 +61,11 @@ export function productsToCsv(products: Product[], names: Map<string, string>) {
 }
 
 export function varietiesToCsv(varieties: Variety[]) {
-  const lines = ["id,name,stems,cost_per_stem,delivery"];
+  const lines = ["id,name,stems,cost_per_stem,delivery_days"];
   for (const v of varieties) {
-    lines.push([v.id, v.name, v.stems, v.cost, v.delivery].map(esc).join(","));
+    lines.push(
+      [v.id, v.name, v.stems, v.cost, daysLabel(v.days)].map(esc).join(","),
+    );
   }
   return lines.join("\n");
 }
@@ -307,7 +310,7 @@ export function applyVarietyCsv(text: string, varieties: Variety[]) {
     };
     const stems = cell("stems");
     const cost = cell("cost_per_stem");
-    const delivery = cell("delivery");
+    const delivery = cell("delivery_days") ?? cell("delivery");
     let touched = false;
     if (stems && Number.isFinite(Number(stems))) {
       v.stems = Math.max(0, Math.floor(Number(stems)));
@@ -317,9 +320,16 @@ export function applyVarietyCsv(text: string, varieties: Variety[]) {
       v.cost = Math.max(0, Number(cost));
       touched = true;
     }
-    if (delivery !== null) {
-      v.delivery = delivery;
-      touched = true;
+    if (delivery) {
+      const days = parseDays(delivery);
+      if (days.length) {
+        v.days = days;
+        touched = true;
+      } else {
+        problems.push(
+          `Row ${r + 1}: could not read any weekday in "${delivery}".`,
+        );
+      }
     }
     if (touched) changed++;
   }

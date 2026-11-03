@@ -60,7 +60,7 @@ function freshProducts(): Product[] {
 }
 
 function freshVarieties(): Variety[] {
-  return seed.varieties.map((v) => ({ ...v, stems: 0, cost: 0, delivery: "" }));
+  return seed.varieties.map((v) => ({ ...v, stems: 0, cost: 0, days: [] }));
 }
 
 type Saved = {
@@ -114,7 +114,7 @@ function subscribe(fn: () => void) {
       const parsed = raw ? (JSON.parse(raw) as Saved) : null;
       // A fresh copy either way, so the snapshot stops being the server's
       // one and the pages can tell that the browser has taken over.
-      current = parsed?.products?.length ? parsed : blank();
+      current = parsed?.products?.length ? migrate(parsed) : blank();
     } catch {
       // Private mode: carry on with the live catalogue.
       current = blank();
@@ -123,6 +123,21 @@ function subscribe(fn: () => void) {
   listeners.add(fn);
   return () => {
     listeners.delete(fn);
+  };
+}
+
+/**
+ * Saved state from an earlier version of the dashboard. Only ever adds
+ * what is missing: somebody's half-finished week of counting should
+ * survive a deploy.
+ */
+function migrate(saved: Saved): Saved {
+  return {
+    ...saved,
+    varieties: saved.varieties.map((v) => ({
+      ...v,
+      days: Array.isArray(v.days) ? v.days : [],
+    })),
   };
 }
 
@@ -149,6 +164,8 @@ type Store = {
   setRecipe: (id: string, recipe: Ingredient[]) => void;
   updateVariety: (id: string, patch: Partial<Variety>) => void;
   addVariety: (name: string) => void;
+  /** Creates a product and hands back its id, so the caller can open it. */
+  addProduct: (draft: Partial<Product>) => string;
   replaceAll: (next: Partial<Pick<Saved, "products" | "varieties">>) => void;
   publish: () => void;
   reset: () => void;
@@ -219,10 +236,46 @@ export function StudioProvider({ children }: { children: ReactNode }) {
             ...s,
             varieties: [
               ...s.varieties,
-              { id, name: name.trim(), stems: 0, cost: 0, delivery: "" },
+              { id, name: name.trim(), stems: 0, cost: 0, days: [] },
             ],
           },
     );
+  }, []);
+
+  /**
+   * A new product starts as a draft, never live: it has no photograph and
+   * usually no recipe yet, and a half-made product appearing in the shop
+   * the moment somebody types a name would be the worst kind of surprise.
+   *
+   * The id is the date plus a counter, which keeps it apart from
+   * floristPro's own numeric ids and sorts sensibly in a spreadsheet.
+   */
+  const addProduct = useCallback((draft: Partial<Product>) => {
+    const id = `new-${Date.now().toString(36)}`;
+    set((s) => ({
+      ...s,
+      products: [
+        {
+          id,
+          name: "Untitled product",
+          slug: id,
+          desc: "",
+          note: "",
+          cats: [],
+          tiers: [{ label: "Standard", price: 0 }],
+          img: null,
+          varieties: [],
+          recipe: [],
+          status: "draft",
+          stockMode: "stems",
+          manualStock: 0,
+          lowAt: 3,
+          ...draft,
+        },
+        ...s.products,
+      ],
+    }));
+    return id;
   }, []);
 
   const replaceAll = useCallback(
@@ -263,7 +316,7 @@ export function StudioProvider({ children }: { children: ReactNode }) {
           : {
               ...v,
               stems: [120, 80, 60, 45, 36, 24, 18][i % 7],
-              delivery: v.delivery || (i % 2 ? "Monday & Thursday" : "Tuesday"),
+              days: v.days?.length ? v.days : i % 2 ? [1, 4] : [2],
             },
       ),
       products: s.products.map((p) =>
@@ -309,6 +362,7 @@ export function StudioProvider({ children }: { children: ReactNode }) {
       setRecipe,
       updateVariety,
       addVariety,
+      addProduct,
       replaceAll,
       publish,
       reset,
@@ -324,6 +378,7 @@ export function StudioProvider({ children }: { children: ReactNode }) {
       setRecipe,
       updateVariety,
       addVariety,
+      addProduct,
       replaceAll,
       publish,
       reset,

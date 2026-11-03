@@ -44,8 +44,12 @@ export type Variety = {
   stems: number;
   /** What a stem costs in, for the margin column. Zero means not set. */
   cost: number;
-  /** Free text: "Monday and Thursday", "on order". Theirs to fill in. */
-  delivery: string;
+  /**
+   * Which weekdays this variety comes in on, 0 for Sunday through 6 for
+   * Saturday. Structured rather than free text because the report has to
+   * work out how many days a bucket has to last.
+   */
+  days: number[];
 };
 
 export type Availability = {
