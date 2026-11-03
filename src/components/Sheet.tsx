@@ -8,7 +8,7 @@ import { allCategories, useStudio } from "@/lib/store";
 import { useGridKeys } from "@/lib/useGridKeys";
 import type { Product } from "@/lib/types";
 
-type View = "all" | "out" | "limited" | "unknown" | "changed";
+export type View = "all" | "out" | "limited" | "unknown" | "changed";
 
 const VIEWS: { id: View; label: string }[] = [
   { id: "all", label: "Everything" },
@@ -17,6 +17,11 @@ const VIEWS: { id: View; label: string }[] = [
   { id: "unknown", label: "No recipe" },
   { id: "changed", label: "Unpublished" },
 ];
+
+/** Narrows whatever arrived in the query string to a view we have. */
+export function isView(v: string | null): v is View {
+  return VIEWS.some((x) => x.id === v);
+}
 
 /**
  * The sheet.
@@ -31,11 +36,13 @@ const VIEWS: { id: View; label: string }[] = [
  * the dashboard.
  */
 export default function Sheet({
-  initialView = "all",
+  view,
+  onView,
   openId,
   onOpen,
 }: {
-  initialView?: View;
+  view: View;
+  onView: (v: View) => void;
   openId: string | null;
   onOpen: (id: string | null) => void;
 }) {
@@ -44,7 +51,6 @@ export default function Sheet({
 
   const [q, setQ] = useState("");
   const [cat, setCat] = useState("");
-  const [view, setView] = useState<View>(initialView);
   const [picked, setPicked] = useState<Set<string>>(new Set());
 
   const rows = useMemo(() => {
@@ -106,7 +112,7 @@ export default function Sheet({
               <button
                 key={v.id}
                 type="button"
-                onClick={() => setView(v.id)}
+                onClick={() => onView(v.id)}
                 aria-pressed={view === v.id}
                 className={`px-2.5 py-[0.38rem] text-[0.78rem] font-semibold transition-colors ${
                   view === v.id
@@ -211,7 +217,7 @@ export default function Sheet({
                 Can make
               </th>
               <th scope="col">Short of</th>
-              <th scope="col">Counted by</th>
+              <th scope="col" className="min-w-36">Counted by</th>
               <th scope="col">On the website</th>
             </tr>
           </thead>
