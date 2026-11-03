@@ -1,0 +1,4750 @@
+{
+"varieties": [
+{
+"id": "rose",
+"name": "Rose"
+},
+{
+"id": "lily",
+"name": "Lily"
+},
+{
+"id": "lisianthus",
+"name": "Lisianthus"
+},
+{
+"id": "stock",
+"name": "Stock"
+},
+{
+"id": "chrysanthemum",
+"name": "Chrysanthemum"
+},
+{
+"id": "freesia",
+"name": "Freesia"
+},
+{
+"id": "eucalyptus",
+"name": "Eucalyptus"
+},
+{
+"id": "iris",
+"name": "Iris"
+},
+{
+"id": "carnation",
+"name": "Carnation"
+},
+{
+"id": "germini",
+"name": "Germini"
+},
+{
+"id": "calla",
+"name": "Calla lily"
+},
+{
+"id": "alstroemeria",
+"name": "Alstroemeria"
+},
+{
+"id": "sunflower",
+"name": "Sunflower"
+},
+{
+"id": "anthurium",
+"name": "Anthurium"
+},
+{
+"id": "hydrangea",
+"name": "Hydrangea"
+},
+{
+"id": "orchid",
+"name": "Orchid"
+},
+{
+"id": "gerbera",
+"name": "Gerbera"
+},
+{
+"id": "delphinium",
+"name": "Delphinium"
+},
+{
+"id": "limonium",
+"name": "Limonium"
+},
+{
+"id": "gypsophila",
+"name": "Gypsophila"
+},
+{
+"id": "veronica",
+"name": "Veronica"
+},
+{
+"id": "waxflower",
+"name": "Waxflower"
+},
+{
+"id": "protea",
+"name": "Protea"
+},
+{
+"id": "craspedia",
+"name": "Craspedia"
+},
+{
+"id": "pittosporum",
+"name": "Pittosporum"
+},
+{
+"id": "tulip",
+"name": "Tulip"
+},
+{
+"id": "ivy",
+"name": "Ivy"
+},
+{
+"id": "fern",
+"name": "Fern"
+},
+{
+"id": "foliage",
+"name": "Mixed foliage"
+}
+],
+"products": [
+{
+"id": "20130171",
+"name": "Mixed Roses",
+"slug": "mixed-roses",
+"desc": "Mix roses with foliage in an aqua pack",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets",
+"Romance"
+],
+"tiers": [
+{
+"label": "Medium",
+"price": 45.0
+},
+{
+"label": "Large",
+"price": 69.99
+}
+],
+"img": "/img/products/20130171.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20130173",
+"name": "Vibrant Handtie",
+"slug": "vibrant-handtie",
+"desc": "A seasonal mix of bright and cheerful flowers beautifully presented in a hand-tied bouquet.",
+"note": "Please note arrangements may vary dependent on availability. (Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 60.0
+},
+{
+"label": "Superior",
+"price": 70.0
+},
+{
+"label": "Exquisite",
+"price": 80.0
+}
+],
+"img": "/img/products/20130173.jpg",
+"varieties": []
+},
+{
+"id": "20130177",
+"name": "Laurent Perrier Champagne",
+"slug": "laurent-perrier-champagne",
+"desc": "A bottle of Laurent Perrier Champagne.",
+"note": "",
+"cats": [
+"Champagne",
+"Romance"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+}
+],
+"img": "/img/products/20130177.jpg",
+"varieties": []
+},
+{
+"id": "20130187",
+"name": "Sunshine Handtie",
+"slug": "sunshine-handtie",
+"desc": "Sunshine seasonal mix hand-tied bouquet.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand",
+"price": 55.0
+},
+{
+"label": "Superior",
+"price": 65.0
+},
+{
+"label": "Exquisite",
+"price": 100.0
+}
+],
+"img": "/img/products/20130187.jpg",
+"varieties": []
+},
+{
+"id": "20130209",
+"name": "Soft Pastel Wreath",
+"slug": "soft-pastel-wreath",
+"desc": "A beautiful mix of soft pink, peach and cream. Featuring roses, chrysanthemums and delicate foliage. Standard 10\" Large 12\" Extra large 14\" This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 100.0
+},
+{
+"label": "Large",
+"price": 125.0
+},
+{
+"label": "Extra Large",
+"price": 150.0
+}
+],
+"img": "/img/products/20130209.jpg",
+"varieties": [
+"rose",
+"chrysanthemum",
+"foliage"
+]
+},
+{
+"id": "20130210",
+"name": "Scented Yellow Wreath",
+"slug": "scented-yellow-wreath",
+"desc": "One of our most popular designs, this vibrant wreath of buttery yellow blooms features fragrant freesias. Standard 10\" Large 12\" Extra large 14\" This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large (As shown in image)",
+"price": 100.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20130210.jpg",
+"varieties": [
+"freesia"
+]
+},
+{
+"id": "20130221",
+"name": "Mixed Posy",
+"slug": "mixed-posy",
+"desc": "",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 70.0
+},
+{
+"label": "Extra Large",
+"price": 80.0
+}
+],
+"img": "/img/products/20130221.jpg",
+"varieties": []
+},
+{
+"id": "20141033",
+"name": "Heart Casket Adornment",
+"slug": "heart-casket-adornment",
+"desc": "This white heart shaped tribute is a simple and very graceful design. Three perfect cream large-headed roses trimmed with China grass are carefully set on a bed of delicate white gypsophila flowers.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+}
+],
+"img": "/img/products/20141033.jpg",
+"varieties": [
+"rose",
+"gypsophila"
+]
+},
+{
+"id": "20141034",
+"name": "Scented Posy  Lilac and White",
+"slug": "scented-posy-lilac-and-white",
+"desc": "A beautiful scented posy including scented freesias, roses and september flower in soft lilac and white.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large",
+"price": 100.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20141034.jpg",
+"varieties": [
+"rose",
+"freesia"
+]
+},
+{
+"id": "20141037",
+"name": "Baby Spray   White",
+"slug": "baby-spray-white",
+"desc": "White large-headed roses, lisianthus, spray carnations, spray roses and Veronica are carefully arranged with leather leaf and pittosporum to create this delicate spray.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 73.0
+}
+],
+"img": "/img/products/20141037.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"carnation",
+"veronica",
+"pittosporum"
+]
+},
+{
+"id": "20141038",
+"name": "Baby Spray   Blue and Lilac",
+"slug": "baby-spray-blue-and-lilac",
+"desc": "This beautiful floral spray features shades of blue, lilac, cream and white. Large-headed roses, lisianthus, spray carnations, spray roses and Veronica are carefully arranged with leather leaf and pittosporum.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 73.0
+}
+],
+"img": "/img/products/20141038.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"carnation",
+"veronica",
+"pittosporum"
+]
+},
+{
+"id": "20141149",
+"name": "White Rose and Alstroemeria Vase",
+"slug": "white-rose-and-alstroemeria-vase",
+"desc": "Or add something extra: White Rose and Alstroemeria Vase * C06191WS Pure white roses and alstroemeria are accented by lush greens and beautifully arranged in a clear curved glass vase to create an elegant gift that is ready to display straight away.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 62.99
+},
+{
+"label": "Grand",
+"price": 72.99
+},
+{
+"label": "Superior",
+"price": 82.99
+}
+],
+"img": "/img/products/20141149.jpg",
+"varieties": [
+"rose",
+"alstroemeria"
+]
+},
+{
+"id": "20141150",
+"name": "White Rose and Calla Lily Vase",
+"slug": "white-rose-and-calla-lily-vase",
+"desc": "Beautiful white roses and calla lilies are simply set amongst lush greens in a clear curved glass vase to create a meaningful gift they are sure to love.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 62.99
+},
+{
+"label": "Grand",
+"price": 77.99
+},
+{
+"label": "Superior",
+"price": 92.99
+}
+],
+"img": "/img/products/20141150.jpg",
+"varieties": [
+"rose",
+"lily",
+"calla"
+]
+},
+{
+"id": "20141151",
+"name": "Luxury White Oriental Lily Vase.",
+"slug": "luxury-white-oriental-lily-vase",
+"desc": "A generous selection of fresh, crisp white Oriental lilies are presented in a crackle glass vase. A truly elegant choice to convey your thoughts.",
+"note": "",
+"cats": [
+"Sympathy"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 77.99
+}
+],
+"img": "/img/products/20141151.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20141152",
+"name": "Calla Lily Arrangement",
+"slug": "calla-lily-arrangement",
+"desc": "Sophisticated white calla lilies are expertly arranged amongst a selection of exquisite lush greens and placed in a clear glass cylinder vase with a gold rim.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 82.99
+}
+],
+"img": "/img/products/20141152.jpg",
+"varieties": [
+"lily",
+"calla"
+]
+},
+{
+"id": "20162041",
+"name": "Happy Mothers Day Balloon",
+"slug": "happy-mothers-day-balloon",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Medium",
+"price": 6.99
+},
+{
+"label": "Large",
+"price": 50.0
+}
+],
+"img": "/img/products/20162041.jpg",
+"varieties": []
+},
+{
+"id": "20187044",
+"name": "\u00a35 Gift Voucher",
+"slug": "5-gift-voucher",
+"desc": "Gift Vouchers - valid for 6 months. To be presented in store for cut flowers, gifts, wedding flowers, workshops . Postal delivery can take up to 5 days.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 5.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20195018",
+"name": "Handtied Neutrals",
+"slug": "handtied-neutrals",
+"desc": "NHTW Using beautiful blooms in classic white, cream and green tones. Each design is one of a kind using the freshest stems on the day, so whilst your gift may look different from the one pictured, it will still be just as lovely. A beautiful mix of fresh flowers Arrives pre-arranged in a bubble of water and vase ready",
+"note": "",
+"cats": [
+"Sympathy",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand (As shown in image)",
+"price": 75.0
+},
+{
+"label": "Superior",
+"price": 99.99
+},
+{
+"label": "Exquisite",
+"price": 125.0
+}
+],
+"img": "/img/products/20195018.jpg",
+"varieties": []
+},
+{
+"id": "20200014",
+"name": "Summer Breeze Hatbox",
+"slug": "summer-breeze-hatbox",
+"desc": "Our beautiful Summer Breeze Hatbox features bright blooms to celebrate Enland in Summertime. Words cant convey how stunningly beautiful this hatbox is.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Hatboxes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+}
+],
+"img": "/img/products/20200014.jpg",
+"varieties": []
+},
+{
+"id": "20200218",
+"name": "Bouquet \u00a350",
+"slug": "bouquet-50",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a350 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20200220",
+"name": "Bouquet \u00a360",
+"slug": "bouquet-60",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a360 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20200221",
+"name": "Bouquet \u00a370",
+"slug": "bouquet-70",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a370 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 70.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20200222",
+"name": "Bouquet \u00a380",
+"slug": "bouquet-80",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a380 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20200242",
+"name": "Hanging Ivy",
+"slug": "hanging-ivy",
+"desc": "Hanging Ivy - Indoor or outdoor",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 19.99
+}
+],
+"img": "/img/products/20200242.jpg",
+"varieties": [
+"ivy"
+]
+},
+{
+"id": "20200247",
+"name": "Florist Choice Hatbox",
+"slug": "florist-choice-hatbox",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Florist Choice Hatbox Each and every design is one-of-a-kind, created by an artisan florist using the freshest stems available on the day so, whilst your gift will look different to the one pictured, it\u2019ll still be just as lovely. About this gift: An easy-to-care-for arrangement of flowers in a chic hatbox Choose bright or pastel hues A reusable hatbox makes a lovely keepsake Flowers delivered in bud for 7 days of freshness guaranteed Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. Colour Choice -- please select -- Surprise Me Pastels Neutral Brights",
+"note": "",
+"cats": [
+"Florist Choice",
+"Hatboxes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand",
+"price": 55.0
+},
+{
+"label": "Superior",
+"price": 60.0
+}
+],
+"img": "/img/products/20200247.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20202032",
+"name": "Congratulations",
+"slug": "congratulations",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202032.jpg",
+"varieties": []
+},
+{
+"id": "20202033",
+"name": "Get Well Soon",
+"slug": "get-well-soon",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202033.jpg",
+"varieties": []
+},
+{
+"id": "20202035",
+"name": "Happy Birthday Cupcake",
+"slug": "happy-birthday-cupcake",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202035.jpg",
+"varieties": []
+},
+{
+"id": "20202036",
+"name": "New Baby",
+"slug": "new-baby",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202036.jpg",
+"varieties": []
+},
+{
+"id": "20202037",
+"name": "Pink Rose",
+"slug": "pink-rose",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202037.jpg",
+"varieties": []
+},
+{
+"id": "20202040",
+"name": "Thinking of You",
+"slug": "thinking-of-you",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202040.jpg",
+"varieties": []
+},
+{
+"id": "20202041",
+"name": "With Love",
+"slug": "with-love",
+"desc": "",
+"note": "",
+"cats": [
+"Cards"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 2.5
+}
+],
+"img": "/img/products/20202041.jpg",
+"varieties": []
+},
+{
+"id": "20203022",
+"name": "Sympathy hand tied made with the finest flowers",
+"slug": "sympathy-hand-tied-made-with-the-finest-flowers",
+"desc": "HTSYM2S Each and every one of our sympathy gifts is one-of-a-kind, lovingly hand-crafted by an artisan florist using the freshest stems available on the day so whilst your gift will look different to the one pictured, it\u2019ll be just as beautifully thoughtful. About this gift: A lovingly hand-crafted bouquet of flowers Sympathetically designed using flowers in muted tones Flowers delivered in bud for 7 days of freshness guaranteed Beautifully presented in kind-to-the-planet packaging Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. \u00a3160.0 - Exquisite Colour Choice -- please select -- Neutral Pastel Bright",
+"note": "",
+"cats": [
+"Sympathy"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+},
+{
+"label": "Grand",
+"price": 85.0
+},
+{
+"label": "Superior",
+"price": 120.0
+}
+],
+"img": "/img/products/20203022.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20203029",
+"name": "Sympathy hand tied made with the finest flowers",
+"slug": "sympathy-hand-tied-made-with-the-finest-flowers",
+"desc": "HTSYM9S Each and every one of our sympathy gifts is one-of-a-kind, lovingly hand-crafted by an artisan florist using the freshest stems available on the day so whilst your gift will look different to the one pictured, it\u2019ll be just as beautifully thoughtful. About this gift: A luxurious bouquet expertly hand-crafted and generously filled with extra special stems Sympathetically designed using flowers in muted tones Flowers delivered in bud for 7 days of freshness guaranteed Beautifully presented in kind-to-the-planet packaging Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. \u00a3300.0 - Superior Colour Choice -- please select -- Neutral Pastel Bright",
+"note": "",
+"cats": [
+"Sympathy"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 200.0
+},
+{
+"label": "Grand",
+"price": 250.0
+}
+],
+"img": "/img/products/20203029.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20203033",
+"name": "Hatbox made with Seasonal Flowers",
+"slug": "hatbox-made-with-seasonal-flowers",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Hatbox made with Seasonal Flowers HBOX1 Each and every design is one-of-a-kind, created by an artisan florist using the freshest stems available on the day so, whilst your gift will look different to the one pictured, it\u2019ll still be just as lovely. About this gift: An easy-to-care-for arrangement of flowers in a chic hatbox Choose bright or pastel hues A reusable hatbox makes a lovely keepsake Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. Colour Choice -- please select -- Surprise Me Pastels Brights Neutral",
+"note": "",
+"cats": [
+"Hatboxes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 55.0
+},
+{
+"label": "Superior",
+"price": 60.0
+},
+{
+"label": "Exquisite",
+"price": 70.0
+}
+],
+"img": "/img/products/20203033.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20203034",
+"name": "Hand tied bouquet and vase made with seasonal flowers",
+"slug": "hand-tied-bouquet-and-vase-made-with-seasonal-flowers",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Hand tied bouquet and vase made with seasonal flowers VASE1S Each and every design is one-of-a-kind, created by an artisan florist using the freshest stems available on the day so, whilst your gift will look different to the one pictured, it\u2019ll still be just as lovely. About this gift: Hand-tied flowers perfectly pre-arranged and delivered in a stylish vase Choose neutral, bright or pastel hues or let our florist surprise you Arrives ready to display for minimal fuss and maximum impact Includes a beautiful vase they can use time and time again Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. Colour Choice -- please select -- Pastels Brights Surprise Me Neutrals",
+"note": "",
+"cats": [
+"Corporate Flowers"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 40.0
+}
+],
+"img": "/img/products/20203034.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20203035",
+"name": "Hand tied bouquet and vase made with seasonal flowers",
+"slug": "hand-tied-bouquet-and-vase-made-with-seasonal-flowers",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Hand tied bouquet and vase made with seasonal flowers VASE2S Each and every design is one-of-a-kind, created by an artisan florist using the freshest stems available on the day so, whilst your gift will look different to the one pictured, it\u2019ll still be just as lovely. About this gift: Hand-tied flowers perfectly pre-arranged and delivered in a stylish vase Choose neutral, bright or pastel hues or let our florist surprise you Arrives ready to display for minimal fuss and maximum impact Includes a beautiful vase they can use time and time again Contactless delivery for your peace of mind Good to know... This gift may contain lilies. Not your cup of tea? Take a look at our lily free gifts. Colour Choice -- please select -- Pastels Brights Surprise Me Neutrals",
+"note": "",
+"cats": [
+"Corporate Flowers"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+}
+],
+"img": "/img/products/20203035.jpg",
+"varieties": [
+"lily"
+]
+},
+{
+"id": "20211011",
+"name": "Red Roses with Chocolates,  Junior Bear and Valentines Balloon",
+"slug": "red-roses-with-chocolates-junior-bear-and-valentines-balloon",
+"desc": "VAL Each and every design is one-of-a-kind, created by an artisan florist using the freshest stems available on the day so, whilst your gift will look different to the one pictured, it\u2019ll still be just as lovely. Allergy Information: Contains: milk, soya May Contain: traces of gluten, nuts Suitable for Vegetarians - Yes Suitable for Vegans - No Contains Alcohol - No Contains Nuts/Traces of Nuts - Yes",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets",
+"Romance"
+],
+"tiers": [
+{
+"label": "12 Red Roses + Teddy + Balloon + Chocolate",
+"price": 99.99
+},
+{
+"label": "18 Red Roses + Teddy + Balloon + Chocolate",
+"price": 149.99
+},
+{
+"label": "24 Red Roses + Teddy + Balloon + Chocolate",
+"price": 190.0
+},
+{
+"label": "30 Red Roses + Teddy + Balloon + Chocolate",
+"price": 250.0
+}
+],
+"img": "/img/products/20211011.jpg",
+"varieties": []
+},
+{
+"id": "20212018",
+"name": "Bouquet \u00a3100",
+"slug": "bouquet-100",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a3100 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20212019",
+"name": "Bouquet \u00a3120",
+"slug": "bouquet-120",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a3120 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 120.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20212020",
+"name": "Bouquet \u00a3150",
+"slug": "bouquet-150",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a3150 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 150.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20212021",
+"name": "Bouquet \u00a3200",
+"slug": "bouquet-200",
+"desc": "Or add something extra: Cadbury Dairy Milk 360 gm box chocolates \u00a310.00 Select Bouquet \u00a3200 Created in-house by our team of artisan florists, using the freshest flowers which are delivered by our high-end suppliers daily This item requires 1 days notice to order. Colour Choice -- please select -- Surprise Me Pastels Brights Neutrals Seasonal Colours",
+"note": "",
+"cats": [
+"Florist Choice",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 200.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20212022",
+"name": "Florist Choice Bouquet 250",
+"slug": "florist-choice-bouquet-250",
+"desc": "Or add something extra: Champagne and Belgian Chocolates \u00a345.00 Select Florist Choice Bouquet 250",
+"note": "Please note that the image shown is for representative purposes only. Your Florist Choice Hand-tied will contain the very freshest seasonal flowers available on the day. This item requires 1 days notice to order.",
+"cats": [
+"Florist Choice"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 250.0
+}
+],
+"img": "/img/products/20212022.jpg",
+"varieties": []
+},
+{
+"id": "20212024",
+"name": "Christmas Wreath Workshop",
+"slug": "christmas-wreath-workshop",
+"desc": "Come and join us for a fun and festive evening creating your own Christmas wreath. Using a mixture of fresh and dried foliage, fruit, berries, baubles, and bows, one of our florists will be there to guide you in perfecting your Christmas creation. All materials will be provided. Also to include tea, coffee, and mince pies. If the above dates aren't suitable for you or if you have any further questions please contact us at info@stratford-florist.co.uk Please select the same date on the shopping cart calendar as the date selected below. Please also select store collection as the delivery option at checkout",
+"note": "Please note: The workshops will be taking place at our Stratford location All prices are Per Person Please select your date from the \"Choose your price\" dropdown list below -- please select -- Quantity",
+"cats": [],
+"tiers": [
+{
+"label": "Wednesday November 16th - 6-8pm",
+"price": 60.0
+},
+{
+"label": "Wednesday November 23rd - 6-8pm",
+"price": 60.0
+},
+{
+"label": "Wednesday November 30th - 6-8pm",
+"price": 60.0
+},
+{
+"label": "Wednesday December 7th - 6-8pm",
+"price": 60.0
+}
+],
+"img": "/img/products/20212024.jpg",
+"varieties": [
+"foliage"
+]
+},
+{
+"id": "20212025",
+"name": "Scented Blue Wreath",
+"slug": "scented-blue-wreath",
+"desc": "One of our most popular designs, this beautiful profusion of purple and lilac features fragrant freesias. Standard 10\" Large 12\" Extra large 14\" This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large (As shown in image)",
+"price": 100.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20212025.jpg",
+"varieties": [
+"freesia"
+]
+},
+{
+"id": "20212026",
+"name": "Heart Adornment",
+"slug": "heart-adornment",
+"desc": "A petite 7\" heart tribute of green and white featuring delicate gypsophila and ivory roses. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+}
+],
+"img": "/img/products/20212026.jpg",
+"varieties": [
+"rose",
+"gypsophila"
+]
+},
+{
+"id": "20212027",
+"name": "Pastel Rose Heart",
+"slug": "pastel-rose-heart",
+"desc": "A heart tribute of pretty pastel shades featuring roses, limonium, chrysanthemums and fragrant stocks. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 155.0
+}
+],
+"img": "/img/products/20212027.jpg",
+"varieties": [
+"rose",
+"stock",
+"chrysanthemum",
+"limonium"
+]
+},
+{
+"id": "20212028",
+"name": "Red Rose Heart",
+"slug": "red-rose-heart",
+"desc": "Rich red roses meet delicate spray roses and foliage to create this heart tribute. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 120.0
+},
+{
+"label": "Large",
+"price": 230.0
+}
+],
+"img": "/img/products/20212028.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20212029",
+"name": "Yellow Rose Heart",
+"slug": "yellow-rose-heart",
+"desc": "Warm yellow roses meet delicate spray roses and foliage to create this heart tribute. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 120.0
+},
+{
+"label": "Large",
+"price": 230.0
+}
+],
+"img": "/img/products/20212029.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20212030",
+"name": "Cerise Rose Heart",
+"slug": "cerise-rose-heart",
+"desc": "A heart tribute bursting with roses in rich pink and red tones. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 145.0
+}
+],
+"img": "/img/products/20212030.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20212031",
+"name": "Contemporary Heart",
+"slug": "contemporary-heart",
+"desc": "A vibrant contemporary heart tribute featuring striking anthuriums and calla lilies in an open heart design. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 190.0
+}
+],
+"img": "/img/products/20212031.jpg",
+"varieties": [
+"lily",
+"calla",
+"anthurium"
+]
+},
+{
+"id": "20212032",
+"name": "Deluxe Double Heart",
+"slug": "deluxe-double-heart",
+"desc": "Two beautiful hearts with an open design, each features the finest orchids, anthuriums and delicate lilac roses nestled in fresh foliage. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 195.0
+}
+],
+"img": "/img/products/20212032.jpg",
+"varieties": [
+"rose",
+"anthurium",
+"orchid",
+"foliage"
+]
+},
+{
+"id": "20212033",
+"name": "Cottage Garden Heart",
+"slug": "cottage-garden-heart",
+"desc": "Featuring stunning garden roses, delicate lilac lisianthus and scented rosemary, this heart tribute is full of beautiful tones. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 110.0
+}
+],
+"img": "/img/products/20212033.jpg",
+"varieties": [
+"rose",
+"lisianthus"
+]
+},
+{
+"id": "20212034",
+"name": "Lovely Lilac Heart",
+"slug": "lovely-lilac-heart",
+"desc": "A heart tribute in beautiful purple and white shades, featuring fragrant stocks and lilac roses. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+}
+],
+"img": "/img/products/20212034.jpg",
+"varieties": [
+"rose",
+"stock"
+]
+},
+{
+"id": "20212035",
+"name": "Striking Sunflower Heart",
+"slug": "striking-sunflower-heart",
+"desc": "A bright mix of striking sunflowers, roses and craspedia in an open heart design. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 150.0
+}
+],
+"img": "/img/products/20212035.jpg",
+"varieties": [
+"rose",
+"sunflower",
+"craspedia"
+]
+},
+{
+"id": "20212036",
+"name": "Bold Brights Heart",
+"slug": "bold-brights-heart",
+"desc": "A vibrant combination of blooms including roses, carnations and stocks, in a beautiful open heart design. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Hearts"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 125.0
+}
+],
+"img": "/img/products/20212036.jpg",
+"varieties": [
+"rose",
+"stock",
+"carnation"
+]
+},
+{
+"id": "20212037",
+"name": "Scented Yellow Posy",
+"slug": "scented-yellow-posy",
+"desc": "A pretty combination of fresh yellow and white blooms featuring germini, astrantia and fragrant freesias. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard  (As shown in image)",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 75.0
+},
+{
+"label": "Extra Large",
+"price": 90.0
+}
+],
+"img": "/img/products/20212037.jpg",
+"varieties": [
+"freesia",
+"germini"
+]
+},
+{
+"id": "20212038",
+"name": "White Natural Pillow",
+"slug": "white-natural-pillow",
+"desc": "A stunning pillow design of orchids, lily grass and natural willow all set on a moss base. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 120.0
+}
+],
+"img": "/img/products/20212038.jpg",
+"varieties": [
+"lily",
+"orchid"
+]
+},
+{
+"id": "20212039",
+"name": "Traditional Red Posy",
+"slug": "traditional-red-posy",
+"desc": "This posy beautifully contrasts red roses, pink lisianthus and delicate foliage with fresh white chrysanthemums. This item requires 1 days notice to order. - Standard",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+}
+],
+"img": "/img/products/20212039.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum",
+"foliage"
+]
+},
+{
+"id": "20212040",
+"name": "Traditional Pink Posy",
+"slug": "traditional-pink-posy",
+"desc": "This posy features pink lisianthus and cream roses resting on a beautiful bed of white chrysanthemums. This item requires 1 days notice to order. - Standard",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+}
+],
+"img": "/img/products/20212040.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum"
+]
+},
+{
+"id": "20212041",
+"name": "Bold Brights Posy",
+"slug": "bold-brights-posy",
+"desc": "A vibrant posy featuring germini, roses, carnations and alstroemeria in rich shades. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 70.0
+},
+{
+"label": "Extra Large",
+"price": 80.0
+}
+],
+"img": "/img/products/20212041.jpg",
+"varieties": [
+"rose",
+"carnation",
+"germini",
+"alstroemeria"
+]
+},
+{
+"id": "20212042",
+"name": "Rose and Germini Posy",
+"slug": "rose-and-germini-posy",
+"desc": "A combination of vibrant roses, soft peach germini and lavender lisianthus, this posy of rich tones also features fragrant stocks. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 105.0
+}
+],
+"img": "/img/products/20212042.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"stock",
+"germini"
+]
+},
+{
+"id": "20212043",
+"name": "Pink Rose and Freesia Posy",
+"slug": "pink-rose-and-freesia-posy",
+"desc": "A pretty and popular design, this posy features roses and fragrant freesias in stunning pastel shades. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large",
+"price": 100.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20212043.jpg",
+"varieties": [
+"rose",
+"freesia"
+]
+},
+{
+"id": "20212044",
+"name": "White Rose and Freesia Posy",
+"slug": "white-rose-and-freesia-posy",
+"desc": "A pretty and popular design, this posy features roses and fragrant freesias in stunning lilac and white shades. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+},
+{
+"label": "Large",
+"price": 85.0
+},
+{
+"label": "Extra Large",
+"price": 105.0
+}
+],
+"img": "/img/products/20212044.jpg",
+"varieties": [
+"rose",
+"freesia"
+]
+},
+{
+"id": "20212045",
+"name": "Woodland Pillow",
+"slug": "woodland-pillow",
+"desc": "A contemporary design with a woodland feel, this unique pillow posy features pink and peach blooms and willow on a bed of moss. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 140.0
+}
+],
+"img": "/img/products/20212045.jpg",
+"varieties": []
+},
+{
+"id": "20212046",
+"name": "Pretty Pastel Posy",
+"slug": "pretty-pastel-posy",
+"desc": "A profusion of soft pastel shades, this posy features stunning roses plus fragrant freesias and pretty scented stocks. This item requires 1 days notice to order. - Standard",
+"note": "",
+"cats": [
+"Posies and Pillows"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 105.0
+}
+],
+"img": "/img/products/20212046.jpg",
+"varieties": [
+"rose",
+"stock",
+"freesia"
+]
+},
+{
+"id": "20212047",
+"name": "White and Green Cross",
+"slug": "white-and-green-cross",
+"desc": "An elegant cross that contrasts an array of white blooms, including roses, chrysanthemums and limonium, with beautiful foliage. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Crosses"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 110.0
+},
+{
+"label": "Large",
+"price": 140.0
+},
+{
+"label": "Extra Large",
+"price": 170.0
+}
+],
+"img": "/img/products/20212047.jpg",
+"varieties": [
+"rose",
+"chrysanthemum",
+"limonium",
+"foliage"
+]
+},
+{
+"id": "20212048",
+"name": "Pastel Cross",
+"slug": "pastel-cross",
+"desc": "A cross of pretty pastels including peach roses and germini, white spray carnations and cream lisianthus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Crosses"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 110.0
+},
+{
+"label": "Large",
+"price": 140.0
+},
+{
+"label": "Extra Large",
+"price": 170.0
+}
+],
+"img": "/img/products/20212048.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"carnation",
+"germini"
+]
+},
+{
+"id": "20212049",
+"name": "Lilac and White Cross",
+"slug": "lilac-and-white-cross",
+"desc": "A beautiful lilac and white cross featuring roses, lisianthus and eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Crosses"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 105.0
+}
+],
+"img": "/img/products/20212049.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"eucalyptus"
+]
+},
+{
+"id": "20212050",
+"name": "Red and Pink Cross",
+"slug": "red-and-pink-cross",
+"desc": "A cross featuring rich red and pink blooms including roses, alstroemeria and astrantia. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Crosses"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 110.0
+},
+{
+"label": "Large",
+"price": 140.0
+},
+{
+"label": "Extra Large",
+"price": 170.0
+}
+],
+"img": "/img/products/20212050.jpg",
+"varieties": [
+"rose",
+"alstroemeria"
+]
+},
+{
+"id": "20212051",
+"name": "Lily and Rose Casket Spray",
+"slug": "lily-and-rose-casket-spray",
+"desc": "A classic spray of roses and fragrant Oriental lilies in beautiful contrasting white and yellow tones. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 175.0
+},
+{
+"label": "Large",
+"price": 195.0
+},
+{
+"label": "Extra Large",
+"price": 215.0
+}
+],
+"img": "/img/products/20212051.jpg",
+"varieties": [
+"rose",
+"lily"
+]
+},
+{
+"id": "20212052",
+"name": "Pink Lily and Rose Casket Spray",
+"slug": "pink-lily-and-rose-casket-spray",
+"desc": "A classic spray of roses and fragrant Oriental lilies in beautiful pink tones. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 175.0
+},
+{
+"label": "Large",
+"price": 195.0
+},
+{
+"label": "Extra Large",
+"price": 215.0
+}
+],
+"img": "/img/products/20212052.jpg",
+"varieties": [
+"rose",
+"lily"
+]
+},
+{
+"id": "20212053",
+"name": "White Lily and Rose Casket Spray",
+"slug": "white-lily-and-rose-casket-spray",
+"desc": "A classic spray of roses and fragrant Oriental lilies in beautiful white tones. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 175.0
+},
+{
+"label": "Large",
+"price": 195.0
+},
+{
+"label": "Extra Large",
+"price": 215.0
+}
+],
+"img": "/img/products/20212053.jpg",
+"varieties": [
+"rose",
+"lily"
+]
+},
+{
+"id": "20212054",
+"name": "Rose and Eryngium Casket Spray",
+"slug": "rose-and-eryngium-casket-spray",
+"desc": "One of our most popular designs, this casket spray is a profusion of pastel blooms including pink and ivory roses and pink Oriental lilies. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 145.0
+},
+{
+"label": "Large",
+"price": 220.0
+},
+{
+"label": "Extra Large",
+"price": 295.0
+}
+],
+"img": "/img/products/20212054.jpg",
+"varieties": [
+"rose",
+"lily"
+]
+},
+{
+"id": "20212055",
+"name": "Red Rose and Carnation Casket Spray",
+"slug": "red-rose-and-carnation-casket-spray",
+"desc": "A classic spray of stunning roses and carnations in rich red tones. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 225.0
+},
+{
+"label": "Large",
+"price": 310.0
+},
+{
+"label": "Extra Large",
+"price": 395.0
+}
+],
+"img": "/img/products/20212055.jpg",
+"varieties": [
+"rose",
+"carnation"
+]
+},
+{
+"id": "20212056",
+"name": "White Lily Casket Spray",
+"slug": "white-lily-casket-spray",
+"desc": "A spray of fragrant, striking Oriental lilies contrasted beautifully with foliage. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 225.0
+},
+{
+"label": "Large",
+"price": 255.0
+},
+{
+"label": "Extra Large",
+"price": 300.0
+}
+],
+"img": "/img/products/20212056.jpg",
+"varieties": [
+"lily",
+"foliage"
+]
+},
+{
+"id": "20212057",
+"name": "White and Green Casket Spray",
+"slug": "white-and-green-casket-spray",
+"desc": "A beautiful casket spray in classic green and white colours, with the finest roses, calla lilies, anthuriums and vibrant opulus This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 255.0
+},
+{
+"label": "Large",
+"price": 355.0
+},
+{
+"label": "Extra Large",
+"price": 455.0
+}
+],
+"img": "/img/products/20212057.jpg",
+"varieties": [
+"rose",
+"lily",
+"calla",
+"anthurium"
+]
+},
+{
+"id": "20212058",
+"name": "Vibrant Casket Spray",
+"slug": "vibrant-casket-spray",
+"desc": "A casket spray of beautifully bright blooms including cerise carnations, blue irises and striking orange lilies. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 150.0
+},
+{
+"label": "Large",
+"price": 205.0
+},
+{
+"label": "Extra Large",
+"price": 260.0
+}
+],
+"img": "/img/products/20212058.jpg",
+"varieties": [
+"lily",
+"carnation"
+]
+},
+{
+"id": "20212059",
+"name": "Tropical Casket Spray",
+"slug": "tropical-casket-spray",
+"desc": "A fragrant spray of vibrant tropical tones and blooms including protea, stocks and germini. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 150.0
+},
+{
+"label": "Large",
+"price": 205.0
+},
+{
+"label": "Extra Large",
+"price": 260.0
+}
+],
+"img": "/img/products/20212059.jpg",
+"varieties": [
+"stock",
+"germini",
+"protea"
+]
+},
+{
+"id": "20212060",
+"name": "White Casket Spray",
+"slug": "white-casket-spray",
+"desc": "An elegant white spray featuring the finest roses, hydrangeas and fragrant stocks, contrasted with beautiful foliage. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 250.0
+},
+{
+"label": "Large",
+"price": 335.0
+},
+{
+"label": "Extra Large",
+"price": 420.0
+}
+],
+"img": "/img/products/20212060.jpg",
+"varieties": [
+"rose",
+"stock",
+"hydrangea",
+"foliage"
+]
+},
+{
+"id": "20212061",
+"name": "Large White Casket Spray with Rose Garland",
+"slug": "large-white-casket-spray-with-rose-garland",
+"desc": "An elegant large white spray featuring the finest roses, hydrangeas and fragrant stocks, contrasted with beautiful foliage, including a rose garland. This item requires 3 days notice to order. Collection Only Collect in store Collection Date",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 585.0
+}
+],
+"img": "/img/products/20212061.jpg",
+"varieties": [
+"rose",
+"stock",
+"hydrangea",
+"foliage"
+]
+},
+{
+"id": "20212062",
+"name": "Large White Casket Spray with Garland",
+"slug": "large-white-casket-spray-with-garland",
+"desc": "An elegant white spray featuring the finest roses, hydrangeas and fragrant stocks, contrasted with beautiful foliage, including garland. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 485.0
+}
+],
+"img": "/img/products/20212062.jpg",
+"varieties": [
+"rose",
+"stock",
+"hydrangea",
+"foliage"
+]
+},
+{
+"id": "20212063",
+"name": "Petite White Casket Spray",
+"slug": "petite-white-casket-spray",
+"desc": "Elegant white blooms, including roses, calla lilies and chrysanthemums, contrast with lush foliage in this small casket spray. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 95.0
+}
+],
+"img": "/img/products/20212063.jpg",
+"varieties": [
+"rose",
+"lily",
+"chrysanthemum",
+"calla",
+"foliage"
+]
+},
+{
+"id": "20212064",
+"name": "Petite Pink Casket Spray",
+"slug": "petite-pink-casket-spray",
+"desc": "A beautiful mix of soft and vibrant pink shades, this small casket spray features roses, chrysanthemums, limonium and lush foliage. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 95.0
+}
+],
+"img": "/img/products/20212064.jpg",
+"varieties": [
+"rose",
+"chrysanthemum",
+"limonium",
+"foliage"
+]
+},
+{
+"id": "20212065",
+"name": "Petite Purple and White Casket Spray",
+"slug": "petite-purple-and-white-casket-spray",
+"desc": "Rich purple and blue tones contrast with crisp white in this small casket spray that features roses, lisianthus, and chrysanthemums. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 95.0
+}
+],
+"img": "/img/products/20212065.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum"
+]
+},
+{
+"id": "20212066",
+"name": "Natural Vibrance Casket Spray",
+"slug": "natural-vibrance-casket-spray",
+"desc": "Tropical blooms in vibrant shades including protea and anthuriums, meet lush foliage and sunflowers in this beautiful casket spray. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 250.0
+},
+{
+"label": "Large",
+"price": 325.0
+},
+{
+"label": "Extra Large",
+"price": 400.0
+}
+],
+"img": "/img/products/20212066.jpg",
+"varieties": [
+"sunflower",
+"anthurium",
+"protea",
+"foliage"
+]
+},
+{
+"id": "20212067",
+"name": "Blue and White Casket Spray",
+"slug": "blue-and-white-casket-spray",
+"desc": "A beautiful array of blue, purple and white blooms including delphiniums, lilies, and stocks. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 185.0
+},
+{
+"label": "Large",
+"price": 225.0
+},
+{
+"label": "Extra Large",
+"price": 265.0
+}
+],
+"img": "/img/products/20212067.jpg",
+"varieties": [
+"lily",
+"stock",
+"delphinium"
+]
+},
+{
+"id": "20212068",
+"name": "Sunflower Mix Casket Spray",
+"slug": "sunflower-mix-casket-spray",
+"desc": "This casket spray is a beautiful summery mix featuring sunflowers, irises, spray roses and lush foliage. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 195.0
+},
+{
+"label": "Large",
+"price": 230.0
+},
+{
+"label": "Extra Large",
+"price": 265.0
+}
+],
+"img": "/img/products/20212068.jpg",
+"varieties": [
+"rose",
+"sunflower",
+"foliage"
+]
+},
+{
+"id": "20212069",
+"name": "Sunflower Mix Casket Spray with Garland",
+"slug": "sunflower-mix-casket-spray-with-garland",
+"desc": "This casket spray is a beautiful summery mix featuring sunflowers, irises, spray roses and lush foliage, including garland. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 345.0
+},
+{
+"label": "Grand",
+"price": 385.0
+},
+{
+"label": "Superior",
+"price": 425.0
+}
+],
+"img": "/img/products/20212069.jpg",
+"varieties": [
+"rose",
+"sunflower",
+"foliage"
+]
+},
+{
+"id": "20212070",
+"name": "Pastel Linear Spray",
+"slug": "pastel-linear-spray",
+"desc": "A beautiful spray of pastel blooms including germini, roses and carnations, arranged in a linear design. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 165.0
+},
+{
+"label": "Large",
+"price": 205.0
+},
+{
+"label": "Extra Large",
+"price": 245.0
+}
+],
+"img": "/img/products/20212070.jpg",
+"varieties": [
+"rose",
+"carnation",
+"germini"
+]
+},
+{
+"id": "20212071",
+"name": "Flowing Casket Spray",
+"slug": "flowing-casket-spray",
+"desc": "A flowing style of spray that covers the top of the casket with a profusion of blooms including lisianthus, alstroemeria, roses and chrysanthemums. This design can be deconstructed for the family to take flowers home after the service. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 270.0
+}
+],
+"img": "/img/products/20212071.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum",
+"alstroemeria"
+]
+},
+{
+"id": "20212072",
+"name": "Pink Linear Tribute",
+"slug": "pink-linear-tribute",
+"desc": "This natural looking casket spray features a beautiful array of tones and blooms including craspedia, orchids, stocks and clemantis. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 95.0
+},
+{
+"label": "Large",
+"price": 175.0
+}
+],
+"img": "/img/products/20212072.jpg",
+"varieties": [
+"stock",
+"orchid",
+"craspedia"
+]
+},
+{
+"id": "20212073",
+"name": "The Blue Collection",
+"slug": "the-blue-collection",
+"desc": "A collection of some of our most popular tributes - a casket spray, wreath amd posy. Each features beautiful blooms in blue tones including roses, delphiniums, freesias and more. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes",
+"Casket Sprays",
+"Spray",
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 359.0
+}
+],
+"img": "/img/products/20212073.jpg",
+"varieties": [
+"rose",
+"freesia",
+"delphinium"
+]
+},
+{
+"id": "20212074",
+"name": "The Pastel Collection",
+"slug": "the-pastel-collection",
+"desc": "A collection of some of our most popular tributes - a casket spray, wreath and posy. Each features beautiful blooms in pastel tones including roses, lilies, stocks and more. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes",
+"Casket Sprays"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 359.0
+}
+],
+"img": "/img/products/20212074.jpg",
+"varieties": [
+"rose",
+"lily",
+"stock"
+]
+},
+{
+"id": "20212075",
+"name": "Tribute Letters",
+"slug": "tribute-letters",
+"desc": "Usually chosen by close family, tribute letters typically go in the hearse. Choose the number of letters you'd like and a colour palette and our florist will handcraft a beautiful tribute using the freshest, finest blooms available. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Vibrant",
+"price": 70.0
+},
+{
+"label": "Neutral",
+"price": 70.0
+},
+{
+"label": "Pastel",
+"price": 70.0
+}
+],
+"img": "/img/products/20212075.jpg",
+"varieties": []
+},
+{
+"id": "20212076",
+"name": "Red Tribute Letter",
+"slug": "red-tribute-letter",
+"desc": "Usually chosen by close family, tribute letters typically go in the hearse. Choose the number of letters you'd like and our florist will handcraft a beautiful tribute using the freshest, finest blooms available. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+}
+],
+"img": "/img/products/20212076.jpg",
+"varieties": []
+},
+{
+"id": "20212077",
+"name": "Pink Tribute Letter",
+"slug": "pink-tribute-letter",
+"desc": "Usually chosen by close family, tribute letters typically go in the hearse. Choose the number of letters you'd like and our florist will handcraft a beautiful tribute using the freshest, finest blooms available. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+}
+],
+"img": "/img/products/20212077.jpg",
+"varieties": []
+},
+{
+"id": "20212078",
+"name": "Mum Tribute",
+"slug": "mum-tribute",
+"desc": "Crafted in soft lilac and cream shades, this beautiful tribute features roses, delicate waxflower, chrysanthemums and astrantia. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 195.0
+}
+],
+"img": "/img/products/20212078.jpg",
+"varieties": [
+"rose",
+"chrysanthemum",
+"waxflower"
+]
+},
+{
+"id": "20212079",
+"name": "Dad Tribute",
+"slug": "dad-tribute",
+"desc": "This elegant tribute is crafted using white chrysanthemums, finished with clusters of blue and white blooms including clemantis and lisianthus. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 195.0
+}
+],
+"img": "/img/products/20212079.jpg",
+"varieties": [
+"lisianthus",
+"chrysanthemum"
+]
+},
+{
+"id": "20212080",
+"name": "Yellow Rose and Lily Spray",
+"slug": "yellow-rose-and-lily-spray",
+"desc": "Buttery yellow roses, large fragrant Oriental lilies and rich foliage arranged in an elegant teardrop shape. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large",
+"price": 90.0
+},
+{
+"label": "Extra Large",
+"price": 110.0
+}
+],
+"img": "/img/products/20212080.jpg",
+"varieties": [
+"rose",
+"lily",
+"foliage"
+]
+},
+{
+"id": "20212081",
+"name": "White Rose and Lily Spray",
+"slug": "white-rose-and-lily-spray",
+"desc": "White roses, large fragrant Oriental lilies and rich foliage arranged in an elegant teardrop shape. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large",
+"price": 90.0
+},
+{
+"label": "Extra Large",
+"price": 110.0
+}
+],
+"img": "/img/products/20212081.jpg",
+"varieties": [
+"rose",
+"lily",
+"foliage"
+]
+},
+{
+"id": "20212082",
+"name": "Lemon and Blue Spray",
+"slug": "lemon-and-blue-spray",
+"desc": "One of our most popular designs, this teardrop shaped arrangement features stunning lemon and blue blooms including irises, lisianthus and alstroemeria. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+},
+{
+"label": "Large",
+"price": 75.0
+},
+{
+"label": "Extra Large",
+"price": 90.0
+}
+],
+"img": "/img/products/20212082.jpg",
+"varieties": [
+"lisianthus",
+"alstroemeria"
+]
+},
+{
+"id": "20212083",
+"name": "Scented Pastels Spray",
+"slug": "scented-pastels-spray",
+"desc": "A profusion of fragrant pastel blooms arranged in a teardrop shape. Features scented freesia, peach roses with natural willow and grass. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Large",
+"price": 85.0
+},
+{
+"label": "Extra Large",
+"price": 95.0
+}
+],
+"img": "/img/products/20212083.jpg",
+"varieties": [
+"rose",
+"freesia"
+]
+},
+{
+"id": "20212084",
+"name": "Petite Spray",
+"slug": "petite-spray",
+"desc": "A profusion of white and cream blooms including roses, lisianthus and scented silvery rosemary. Arranged in a teardrop shape suitable for smaller coffins. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 90.0
+}
+],
+"img": "/img/products/20212084.jpg",
+"varieties": [
+"rose",
+"lisianthus"
+]
+},
+{
+"id": "20212085",
+"name": "Blue Petite Spray",
+"slug": "blue-petite-spray",
+"desc": "A profusion of blue, lilac and cream blooms including roses, lisianthus and scented silvery rosemary. Arranged in a teardrop shape suitable for smaller coffins. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 90.0
+}
+],
+"img": "/img/products/20212085.jpg",
+"varieties": [
+"rose",
+"lisianthus"
+]
+},
+{
+"id": "20212086",
+"name": "Pink Petite Spray",
+"slug": "pink-petite-spray",
+"desc": "A profusion of pink, peach and lilac blooms including roses, lisianthus and scented silvery rosemary. Arranged in a teardrop shape suitable for smaller coffins. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 90.0
+}
+],
+"img": "/img/products/20212086.jpg",
+"varieties": [
+"rose",
+"lisianthus"
+]
+},
+{
+"id": "20212087",
+"name": "Vibrant Medley Spray",
+"slug": "vibrant-medley-spray",
+"desc": "A beautiful, vibrant teardrop shaped mix featuring sunflowers, irises and germini. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+},
+{
+"label": "Large",
+"price": 125.0
+},
+{
+"label": "Extra Large",
+"price": 150.0
+}
+],
+"img": "/img/products/20212087.jpg",
+"varieties": [
+"germini",
+"sunflower"
+]
+},
+{
+"id": "20212088",
+"name": "Woodland Spray",
+"slug": "woodland-spray",
+"desc": "This teardrop shaped arrangement features blooms in a beautiful assortment of colours, including roses, lisianthus and alstoemeria. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 100.0
+},
+{
+"label": "Large",
+"price": 110.0
+},
+{
+"label": "Extra Large",
+"price": 120.0
+}
+],
+"img": "/img/products/20212088.jpg",
+"varieties": [
+"rose",
+"lisianthus"
+]
+},
+{
+"id": "20212089",
+"name": "Deluxe White Spray",
+"slug": "deluxe-white-spray",
+"desc": "A lush blend of white and green featuring calla lilies, anthurium and viburnum opulus. Ivy weaves elegantly through the teardrop shape. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Spray"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 145.0
+}
+],
+"img": "/img/products/20212089.jpg",
+"varieties": [
+"lily",
+"calla",
+"anthurium",
+"ivy"
+]
+},
+{
+"id": "20212090",
+"name": "Simple Red Rose Sheaf",
+"slug": "simple-red-rose-sheaf",
+"desc": "Rich red roses meet natural elements, including dried wheat and a raffia bow with soft silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+}
+],
+"img": "/img/products/20212090.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212091",
+"name": "Simple Yellow Rose Sheaf",
+"slug": "simple-yellow-rose-sheaf",
+"desc": "Warm yellow roses meet natural elements, including dried wheat and a raffia bow with soft silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+}
+],
+"img": "/img/products/20212091.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212092",
+"name": "Simple Pink Rose Sheaf",
+"slug": "simple-pink-rose-sheaf",
+"desc": "Pretty pink roses meet natural elements, including wheat and a raffia bow with soft silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+}
+],
+"img": "/img/products/20212092.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212093",
+"name": "Simple White Rose Sheaf",
+"slug": "simple-white-rose-sheaf",
+"desc": "Fresh white roses meet natural elements, including dried wheat and a raffia bow with soft silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+}
+],
+"img": "/img/products/20212093.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212094",
+"name": "Lemon and Blue Sheaf",
+"slug": "lemon-and-blue-sheaf",
+"desc": "A delicate array of yellow, blue and peach featuring irises, chrysanthemums and germini. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Large",
+"price": 60.0
+},
+{
+"label": "Extra Large",
+"price": 70.0
+}
+],
+"img": "/img/products/20212094.jpg",
+"varieties": [
+"chrysanthemum",
+"germini"
+]
+},
+{
+"id": "20212095",
+"name": "Vibrant Scented Sheaf",
+"slug": "vibrant-scented-sheaf",
+"desc": "A bright, beautiful and fragrant combination of lilies, roses and stocks. Also featuring alstroemeria and aspidistra. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Large",
+"price": 60.0
+},
+{
+"label": "Extra Large",
+"price": 70.0
+}
+],
+"img": "/img/products/20212095.jpg",
+"varieties": [
+"rose",
+"lily",
+"stock",
+"alstroemeria"
+]
+},
+{
+"id": "20212096",
+"name": "Sunflower Medley Sheaf",
+"slug": "sunflower-medley-sheaf",
+"desc": "A gorgeous summery medley featuring warm sunflowers, bright blue delphiniums and white roses. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 75.0
+},
+{
+"label": "Extra Large",
+"price": 90.0
+}
+],
+"img": "/img/products/20212096.jpg",
+"varieties": [
+"rose",
+"sunflower",
+"delphinium"
+]
+},
+{
+"id": "20212097",
+"name": "Pretty Pastel Sheaf",
+"slug": "pretty-pastel-sheaf",
+"desc": "An abundance of blush pink blooms featuring fragrant peach stocks, pale pink roses and lilac lisianthus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 70.0
+},
+{
+"label": "Extra Large",
+"price": 80.0
+}
+],
+"img": "/img/products/20212097.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"stock"
+]
+},
+{
+"id": "20212098",
+"name": "Pure White Sheaf",
+"slug": "pure-white-sheaf",
+"desc": "An elegant combination of fresh white tones and rich green, featuring large ivory roses, Oriental lilies and silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 70.0
+},
+{
+"label": "Large",
+"price": 85.0
+},
+{
+"label": "Extra Large",
+"price": 95.0
+}
+],
+"img": "/img/products/20212098.jpg",
+"varieties": [
+"rose",
+"lily",
+"eucalyptus"
+]
+},
+{
+"id": "20212099",
+"name": "White Rose and Calla Lily Sheaf",
+"slug": "white-rose-and-calla-lily-sheaf",
+"desc": "Graceful calla lilies meet large-headed roses and rich green foliage in an elegant, neutral design. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+},
+{
+"label": "Large",
+"price": 75.0
+},
+{
+"label": "Extra Large",
+"price": 90.0
+}
+],
+"img": "/img/products/20212099.jpg",
+"varieties": [
+"rose",
+"lily",
+"calla",
+"foliage"
+]
+},
+{
+"id": "20212100",
+"name": "Pink Classic Rose Sheaf",
+"slug": "pink-classic-rose-sheaf",
+"desc": "Gorgeous natural elements including birch, dried wheat and a raffia bow, meet 12 beautiful soft pink roses and silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20212100.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212101",
+"name": "Yellow Classic Rose Sheaf",
+"slug": "yellow-classic-rose-sheaf",
+"desc": "Gorgeous natural elements including birch, dried wheat and a raffia bow, meet 12 beautiful warm yellow roses and silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20212101.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212102",
+"name": "White Classic Rose Sheaf",
+"slug": "white-classic-rose-sheaf",
+"desc": "Gorgeous natural elements including birch, dried wheat and a raffia bow, meet 12 beautiful white roses and silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20212102.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212103",
+"name": "Red Classic Rose Sheaf",
+"slug": "red-classic-rose-sheaf",
+"desc": "Gorgeous natural elements including birch, dried wheat and a raffia bow, meet 12 beautiful red roses and silvery eucalyptus. This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20212103.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20212104",
+"name": "Tropical Sheaf",
+"slug": "tropical-sheaf",
+"desc": "Vibrant blooms including red roses and white and pink anthuriums, meet rich foliage including a monstera leaf and umbrella fern. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Sheaves"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 90.0
+}
+],
+"img": "/img/products/20212104.jpg",
+"varieties": [
+"rose",
+"anthurium",
+"fern",
+"foliage"
+]
+},
+{
+"id": "20212108",
+"name": "Single Red Rose",
+"slug": "single-red-rose",
+"desc": "A single red rose for placing on the coffin at the end of the service, can be added to any order. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 5.0
+}
+],
+"img": "/img/products/20212108.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20212109",
+"name": "Single Ivory Rose",
+"slug": "single-ivory-rose",
+"desc": "A single ivory rose for placing on the coffin at the end of the service, can be added to any order. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 5.0
+}
+],
+"img": "/img/products/20212109.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20212110",
+"name": "Single Yellow Rose",
+"slug": "single-yellow-rose",
+"desc": "A single yellow rose for placing on the coffin at the end of the service, can be added to any order. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 5.0
+}
+],
+"img": "/img/products/20212110.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20212111",
+"name": "Single Pink Rose",
+"slug": "single-pink-rose",
+"desc": "A single pink rose for placing on the coffin at the end of the service, can be added to any order. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 5.0
+}
+],
+"img": "/img/products/20212111.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20212112",
+"name": "Florist Choice Service Arrangement",
+"slug": "florist-choice-service-arrangement",
+"desc": "SARU1 Each and every design is one-of-a-kind, created by an artisan florist using the freshest flowers available on the day so, whilst you tribute may look different to the ones pictured, it'll still be just as beautiful. This item requires 1 days notice to order.",
+"note": "",
+"cats": [
+"Service Arrangements"
+],
+"tiers": [
+{
+"label": "Brights",
+"price": 255.0
+},
+{
+"label": "Pastels",
+"price": 255.0
+},
+{
+"label": "Neutrals",
+"price": 255.0
+}
+],
+"img": "/img/products/20212112.jpg",
+"varieties": []
+},
+{
+"id": "20212119",
+"name": "Traditional Red Wreath",
+"slug": "traditional-red-wreath",
+"desc": "A traditional wreath of white chrysanthemums contrasted with red roses, lisianthus and delicate foliage. Standard 10\" Large 12\" Extra large 14\" This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 93.5
+},
+{
+"label": "Large",
+"price": 105.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20212119.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum",
+"foliage"
+]
+},
+{
+"id": "20212120",
+"name": "Traditional Pink Wreath",
+"slug": "traditional-pink-wreath",
+"desc": "A traditional wreath of white chrysanthemums contrasted with pretty pink roses, lisianthus and delicate foliage. Standard 10\" Large 12\" Extra large 14\" This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 93.5
+},
+{
+"label": "Large",
+"price": 105.0
+},
+{
+"label": "Extra Large",
+"price": 125.0
+}
+],
+"img": "/img/products/20212120.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"chrysanthemum",
+"foliage"
+]
+},
+{
+"id": "20212121",
+"name": "Opulent White Wreath",
+"slug": "opulent-white-wreath",
+"desc": "A profusion of white blooms, this elegant wreath features the finest hydrangeas, fragrant rosemary and dried lagarus 'bunny tails'. Standard 10\" Large 12\" Extra large 14\" This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 115.5
+},
+{
+"label": "Large",
+"price": 145.0
+},
+{
+"label": "Extra Large",
+"price": 185.0
+}
+],
+"img": "/img/products/20212121.jpg",
+"varieties": [
+"rose",
+"hydrangea"
+]
+},
+{
+"id": "20212123",
+"name": "Foliage Garland",
+"slug": "foliage-garland",
+"desc": "A lush foliage garland, dotted with white waxflower, designed to complete any other funeral tribute. Approximately 18ft This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays",
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 203.5
+}
+],
+"img": "/img/products/20212123.jpg",
+"varieties": [
+"waxflower",
+"foliage"
+]
+},
+{
+"id": "20212124",
+"name": "Foliage Garland With Roses",
+"slug": "foliage-garland-with-roses",
+"desc": "A lush foliage garland, studded with clusters of ivory roses, designed to complement any other funeral tribute. Approximately 18ft This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Casket Sprays",
+"Funeral Finishing Touches"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 242.0
+}
+],
+"img": "/img/products/20212124.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20212126",
+"name": "White and Green Eco friendly Casket Tribute",
+"slug": "white-and-green-eco-friendly-casket-tribute",
+"desc": "Made using natural branches (with no floral foam) this tribute will naturally break down after the service. It features beautiful white orchids, hydrangeas and astrantia. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Specialist Tributes",
+"Casket Sprays",
+"Eco friendly"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 203.5
+}
+],
+"img": "/img/products/20212126.jpg",
+"varieties": [
+"hydrangea",
+"orchid"
+]
+},
+{
+"id": "20212127",
+"name": "Living Succulent Wreath",
+"slug": "living-succulent-wreath",
+"desc": "Made using a wire and moss base (with no floral foam) this wreath isn't just beautiful, it's eco-friendly. Featuring stunning succulents, it's designed to live on after the service. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Eco friendly",
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 132.0
+}
+],
+"img": "/img/products/20212127.jpg",
+"varieties": []
+},
+{
+"id": "20212128",
+"name": "Living Plant Wreath",
+"slug": "living-plant-wreath",
+"desc": "This beautiful wreath is made from living plants, including ivy and kalanchoe and will live on following the service. Created using wire and moss (with no floral foam) it's also more eco-friendly than typical wreaths. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Hearts",
+"Eco friendly"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 170.5
+}
+],
+"img": "/img/products/20212128.jpg",
+"varieties": [
+"ivy"
+]
+},
+{
+"id": "20212129",
+"name": "Eco friendly White Calla Wreath",
+"slug": "eco-friendly-white-calla-wreath",
+"desc": "Made using a wire and moss base (with no floral foam) this calla lily wreath isn't just beautiful, it's eco-friendly too. This item requires 3 days notice to order.",
+"note": "",
+"cats": [
+"Eco friendly",
+"Wreath"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 82.5
+}
+],
+"img": "/img/products/20212129.jpg",
+"varieties": [
+"lily",
+"calla"
+]
+},
+{
+"id": "20220001",
+"name": "Summer Vase",
+"slug": "summer-vase",
+"desc": "SVASEU1 Stylish and bold, our Summer Vase makes a fantastic floral gift to send a loved one this Summertime. We expertly arrange into a vintage glass vase popular Summer flowers such as blue Iris, delicate freesia, roses, and happy gerberas, mixed with seasonal greenery for extra texture. Delivered safely and directly to the lucky recipient's door, this Summer Vase will brighten up their day with beautiful Summer blooms to enjoy at home.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+}
+],
+"img": "/img/products/20220001.jpg",
+"varieties": [
+"rose",
+"freesia",
+"iris",
+"gerbera"
+]
+},
+{
+"id": "20220003",
+"name": "Summer, No Lillies,  Hand tied",
+"slug": "summer-no-lillies-hand-tied",
+"desc": "SLFHTU1 Full of the colours of Summer, our gorgeous Summer Hand-tied is a popular floral gift to send a loved one, friend, or colleague. Perfect to order for a birthday celebration, many congratulations, love you lots or simply to say thinking of you! Our expert florists select the finest seasonal flowers and foliage to create a stylish bouquet, using popular Summer blooms such as blue iris, gerbera, roses, tulips, and lisianthus. In this bouquet option, we don\u2019t use any lilies! To capture the feeling of English Summer time, we use a mix of shades such as sunshine yellow, orange, hot pinks, and purples \u2013 a gorgeous rainbow in a bouquet. To finish, our florists carefully wrap the flowers in luxury kraft paper and tie them with ribbon, ready to deliver direct to the lucky recipient.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand (As shown in image)",
+"price": 55.0
+},
+{
+"label": "Superior",
+"price": 75.0
+}
+],
+"img": "/img/products/20220003.jpg",
+"varieties": [
+"rose",
+"lily",
+"lisianthus",
+"iris",
+"gerbera",
+"tulip",
+"foliage"
+]
+},
+{
+"id": "20221001",
+"name": "Valentines Bouquet in a Vase",
+"slug": "valentines-bouquet-in-a-vase",
+"desc": "VVASE1 Available 7th-15th February A gorgeous floral gift to send that special someone on February 14th! Our Valentine\u2019s Bouquet in a Vase is created using the finest seasonal flowers in romantic shades of ruby reds, burgundy, soft pinks, and peach. The blooms are beautifully arranged in a stylish glass vase and green foliage is added for luxurious texture. The perfect flowers to send your Valentine!",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 85.0
+},
+{
+"label": "Grand",
+"price": 100.0
+}
+],
+"img": "/img/products/20221001.jpg",
+"varieties": [
+"foliage"
+]
+},
+{
+"id": "20221002",
+"name": "Luxury Dozen Red Roses with Vase",
+"slug": "luxury-dozen-red-roses-with-vase",
+"desc": "VAL Looking for the perfect romantic gift for your Valentine? Our Luxury Dozen Red Roses with Vase is always a popular choice, with 12 red roses having the passionate meaning of \u201cBe Mine\u201d. Our talented florists arrange high-quality red roses and lush green foliage in a stylish glass vase, for a luxurious floral gift to send for February 14th. Your special someone will feel truly spoilt when they receive 12 Luxury Red Roses \u2013 we also include your personal card message so they know who adores them!",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20221002.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20221004",
+"name": "Rose Free Luxury Brights Valentine's Bouquet",
+"slug": "rose-free-luxury-brights-valentine-s-bouquet",
+"desc": "VHT3 Available 7th-15th February Our fabulous Rose Free Luxury Brights Bouquet is the perfect option if you want to send a little love this Valentine\u2019s Day, but after a special gift that is a twist on the traditional red roses. Our expert florists lovingly create a stunning bouquet full of luxurious seasonal blooms in bright shades of burgundy, hot pinks, orange, and sunshine yellow. Add a dash of lush green foliage, then wrapped in pretty kraft paper and tied with ribbon \u2013 and you have a stylish and romantic bouquet, with not a rose in sight!",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 60.0
+}
+],
+"img": null,
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20221015",
+"name": "100  Red Rose Grand Gesture +  Free Surprise Gift Hamper",
+"slug": "100-red-rose-grand-gesture-free-surprise-gift-hamper",
+"desc": "VAL Sending roses has a beautiful sentiment behind them, conveying deep emotions of love and admiration. And sending 100 red roses has the hidden meaning of devotion, which is such a sweet message to send your true love.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). Quantity",
+"cats": [
+"Rose Bouquets",
+"Romance"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 399.99
+}
+],
+"img": "/img/products/20221015.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20221025",
+"name": "Lavender and Rosemary",
+"slug": "lavender-and-rosemary",
+"desc": "Or add something extra: Lavender and Rosemary A sumptuous mix of lavender hues including lisianthus, roses, freesias, stocks and rosemary beautifully presented in a vase.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 60.0
+},
+{
+"label": "Superior (As shown in image)",
+"price": 70.0
+}
+],
+"img": "/img/products/20221025.jpg",
+"varieties": [
+"rose",
+"lisianthus",
+"stock",
+"freesia"
+]
+},
+{
+"id": "20231004",
+"name": "Mothers Day Pastel Hatbox",
+"slug": "mothers-day-pastel-hatbox",
+"desc": "MDHBOXP1 A hatbox isn't just for hats, it can be for gorgeous flowers too! This beautiful box will be filled with the finest pastel blooms, chosen and arranged by their local florist so it brings all of the Mother's Day joy.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 55.0
+}
+],
+"img": "/img/products/20231004.jpg",
+"varieties": []
+},
+{
+"id": "20231005",
+"name": "Mothers Day Bright Hatbox",
+"slug": "mothers-day-bright-hatbox",
+"desc": "MDHBOXB1 Forget hats, this hatbox is for beautiful, bright blooms! Specially created by our own fabulous florists., this lovely display of vibrant flowers will bring all sorts of colour to mum's day.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 55.0
+}
+],
+"img": "/img/products/20231005.jpg",
+"varieties": []
+},
+{
+"id": "20231009",
+"name": "Premium Mothers Day Bright Hatbox",
+"slug": "premium-mothers-day-bright-hatbox",
+"desc": "MDHBOXB3 What do you get when you take a hatbox, a super talented florist and a mix of gloriously vibrant blooms? A remarkable Mother's Day prezzie, that's what. Bursting with colour and joy, this is one delivery mum won't forget. Specially created by our own fabulous florists.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 80.0
+}
+],
+"img": "/img/products/20231009.jpg",
+"varieties": []
+},
+{
+"id": "20231010",
+"name": "Pastel flowers in Vase",
+"slug": "pastel-flowers-in-vase",
+"desc": "MDVASEP1 Want to make sure mum doesn't lift a finger this Mother's Day? Blooms in a vase are the way to go. These perfect pastel flowers will be specially selected and arranged by her local florist and delivered ready to display. Specially created by our own fabulous florists.",
+"note": "",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+}
+],
+"img": "/img/products/20231010.jpg",
+"varieties": []
+},
+{
+"id": "20231023",
+"name": "Mothers Day Greetings Card",
+"slug": "mothers-day-greetings-card",
+"desc": "MDCDFT Have a Fabulous Day Floral Sketch Greetings Card",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 3.0
+}
+],
+"img": "/img/products/20231023.jpg",
+"varieties": []
+},
+{
+"id": "20231028",
+"name": "I Heart Prosecco",
+"slug": "i-heart-prosecco",
+"desc": "An elegant and bubbly, fruity sparkling wine full of sweet peach and apple flavours.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 15.0
+}
+],
+"img": "/img/products/20231028.jpg",
+"varieties": []
+},
+{
+"id": "20231030",
+"name": "Freixenet Italian Sparkling Rose 20cl",
+"slug": "freixenet-italian-sparkling-rose-20cl",
+"desc": "Light and effervescent, Freixenet Italian Ros\u00e9 offers delightful red berries notes over a delicate base of white flowers and apples. 20cl.",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 7.5
+}
+],
+"img": "/img/products/20231030.jpg",
+"varieties": []
+},
+{
+"id": "20231031",
+"name": "Freixenet Italian Sparkling Rose 75cl",
+"slug": "freixenet-italian-sparkling-rose-75cl",
+"desc": "Light and effervescent, Freixenet Italian Ros\u00e9 offers delightful red berries notes over a delicate base of white flowers and apples. 75cl.",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 23.0
+}
+],
+"img": "/img/products/20231031.jpg",
+"varieties": []
+},
+{
+"id": "20231040",
+"name": "White Wine : La Vieille Ferme Blanc",
+"slug": "white-wine-la-vieille-ferme-blanc",
+"desc": "A brilliant white showing enticing aromas of citrus fruits, blossom and green apples. The palate is crisp, dry and well-balanced with a lovely clean finish. Serve chilled as an ap\u00e9ritif",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 12.0
+}
+],
+"img": "/img/products/20231040.jpg",
+"varieties": []
+},
+{
+"id": "20231057",
+"name": "Gorgeous Gifts",
+"slug": "gorgeous-gifts",
+"desc": "What take your fancy ? -- please select -- Blooming Token Daisy Token Blooming Curve (+ \u00a318.00) Daisy Curve (+ \u00a318.00) Wildflower Curve (+ \u00a318.00) Daisy Tealight (+ \u00a340.00) Gerbera Tealight (+ \u00a340.00) Poppy Tealight (+ \u00a340.00)",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 7.99
+}
+],
+"img": "/img/products/20231057.jpg",
+"varieties": [
+"gerbera"
+]
+},
+{
+"id": "20231064",
+"name": "Cadbury Dairy Milk  360 gm box chocolates",
+"slug": "cadbury-dairy-milk-360-gm-box-chocolates",
+"desc": "",
+"note": "",
+"cats": [
+"Chocolates"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 10.0
+}
+],
+"img": "/img/products/20231064.jpg",
+"varieties": []
+},
+{
+"id": "20231065",
+"name": "Fairies",
+"slug": "fairies",
+"desc": "Fairies Once upon a time in a magical land not too far away (called Brighton) lived a girl called Louise, who dreamt of creating unique and gorgeous products, appealing to children and young at heart adults, which were also Fair Trade. The popularity of Believe You Can is due to the unique design of each product but also that each product has its own individual and often inspirational \u2018poem\u2019 or \u2018quote\u2019, many of which can be personalised. They appeal to all ages and for many different occasions from Birthdays, Thank you\u2019s, Thinking of You and Weddings to name a few. Family characters such as the Fairy Granddaughter are very popular along with Friendship quotes, Guardian Angels and Dream catchers. On the back of each tag is a story about the Fair Trade producers which is both educational and an added \u2018feel good\u2019 value. Louise has a sketch book full of many more fairies and other characters yet to come to life so watch this space for new products. Hope you enjoy our fairies as much as they have enjoyed being created! x This item requires 2 days notice to order. Quantity",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 6.99
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20231066",
+"name": "Christmas",
+"slug": "christmas",
+"desc": "Christmas -- please select -- \u00a30 - Grand \u00a30 - Superior Gift choice -- please select -- Gonk on Sledge (+ \u00a33) Hanging Sign TalkShite (+ \u00a30) Hanging Sign Colleagues (+ \u00a30) Hanging Sign Always You (+ \u00a30) Hanging Sign Walk Alone (+ \u00a30) Hanging Sign Live Next Door (+ \u00a30) Hanging Sign Tyres & Tits (+ \u00a30) Hanging Sign Glam Ma (+ \u00a30) Quantity",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Gonk on Sledge (As shown in image)",
+"price": 3.0
+}
+],
+"img": "/img/products/20231066.jpg",
+"varieties": []
+},
+{
+"id": "20231067",
+"name": "Heidsieck & Co. Monopole 'Bronze Top' Brut Champagne",
+"slug": "heidsieck-co-monopole-bronze-top-brut-champagne",
+"desc": "",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 35.0
+}
+],
+"img": "/img/products/20231067.jpg",
+"varieties": []
+},
+{
+"id": "20231068",
+"name": "Bollinger Special Cuvee",
+"slug": "bollinger-special-cuvee",
+"desc": "These velvety complex bubbles have aromas of roasted apple, walnut and spice, with flavours of pear, biscuit and toasted brioche.",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 58.0
+}
+],
+"img": "/img/products/20231068.jpg",
+"varieties": []
+},
+{
+"id": "20231069",
+"name": "Lindt Chocolates",
+"slug": "lindt-chocolates",
+"desc": "May contain traces of milk, soya & nuts Flavours -- please select -- Assorted Milk strawberries and cream Salted caramel mint Baileys irish cream white dark",
+"note": "",
+"cats": [
+"Chocolates"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 9.99
+}
+],
+"img": "/img/products/20231069.jpg",
+"varieties": []
+},
+{
+"id": "20231071",
+"name": "Rose and Lily Bouquet",
+"slug": "rose-and-lily-bouquet",
+"desc": "Val A gorgeous mix of the finest red roses, striking pink oriental lilies, and other romantic blooms.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). Number of Roses -- please select -- 6 Roses 12 Roses (+ \u00a325.00) 18 Roses (+ \u00a355.00) 24 Roses (+ \u00a375.00) 100 Roses (+ \u00a3400.00",
+"cats": [
+"Rose Bouquets",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 65.0
+},
+{
+"label": "Grand",
+"price": 85.0
+}
+],
+"img": "/img/products/20231071.jpg",
+"varieties": [
+"rose",
+"lily"
+]
+},
+{
+"id": "20231073",
+"name": "Stratford Seasonal Bouquet",
+"slug": "stratford-seasonal-bouquet",
+"desc": "VAL An irresistible mix of the finest, freshest romantic blooms, this bouquet is a knockout.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 70.0
+},
+{
+"label": "Grand",
+"price": 89.99
+}
+],
+"img": "/img/products/20231073.jpg",
+"varieties": []
+},
+{
+"id": "20231076",
+"name": "Mixed Hand Tied with roses",
+"slug": "mixed-hand-tied-with-roses",
+"desc": "VAL",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Subscription Flowers",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 59.99
+}
+],
+"img": "/img/products/20231076.jpg",
+"varieties": []
+},
+{
+"id": "20231077",
+"name": "Teddy Bear",
+"slug": "teddy-bear",
+"desc": "",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 13.99
+}
+],
+"img": "/img/products/20231077.jpg",
+"varieties": []
+},
+{
+"id": "20231079",
+"name": "Freixenet Prosecco 75cl",
+"slug": "freixenet-prosecco-75cl",
+"desc": "",
+"note": "",
+"cats": [
+"Champagne"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 23.0
+}
+],
+"img": "/img/products/20231079.jpg",
+"varieties": []
+},
+{
+"id": "20231081",
+"name": "Fruit Hampers",
+"slug": "fruit-hampers",
+"desc": "Our hampers are packed full of top quality fruits, vitamins and all round loveliness ! Whether its a \u2018get well soon\u2019 or \u2018thinking of you\u2019 gift, then our hampers cant be beaten for quality and impact. We include the standard fruits i.e.apples, pears, bananas, and then will include seasonal fruits, however please let us know if you specifically wish to include or exclude any fruits. We will Please remember that as these are perishable and seasonal items, then we may not always be able to fulfil your request. However we will endeavour to fulfil your request. Pink Sage hampers are beautifully packaged and presented in organic packaging. Complimented with a gift tag with your own personal message.",
+"note": "",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Medium",
+"price": 29.99
+},
+{
+"label": "Large",
+"price": 39.99
+},
+{
+"label": "Medium, with summer berries",
+"price": 49.99
+},
+{
+"label": "Large, with summer berries",
+"price": 60.0
+}
+],
+"img": "/img/products/20231081.jpg",
+"varieties": []
+},
+{
+"id": "20246040",
+"name": "Romantic Brights Bouquet",
+"slug": "romantic-brights-bouquet",
+"desc": "VAL",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+}
+],
+"img": "/img/products/20246040.jpg",
+"varieties": []
+},
+{
+"id": "20246044",
+"name": "Number Balloons",
+"slug": "number-balloons",
+"desc": "2734 \ud83c\udf88 34\" Helium Number Balloons \ud83c\udf88 Celebrate every special occasion in style with our stunning 34-inch helium number balloons \u2014 perfect for birthdays, anniversaries, corporate milestones, and more! Available in Red, Blue, Pink, Silver, and Gold , these eye-catching balloons add a touch of glamour and fun to any event. Whether you\u2019re celebrating a 1st birthday or a 50th anniversary, our large number balloons make the perfect photo backdrop and party highlight. \u2728 We also offer a wide range of balloons for every occasion \u2014 from themed parties and weddings to baby showers and corporate events. \ud83d\udcac Need something specific? We\u2019re happy to help! Send us a message or give us a call to discuss your color preferences, balloon combinations, or any custom balloon arrangements. \ud83d\udcde Contact us today to make your celebration truly special! Number -- please select -- 0 1 2 3 4 5 6 7 8 9",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Blue (As shown in image)",
+"price": 12.0
+},
+{
+"label": "Silver",
+"price": 12.0
+},
+{
+"label": "Golden",
+"price": 12.0
+},
+{
+"label": "Pink",
+"price": 12.0
+}
+],
+"img": "/img/products/20246044.jpg",
+"varieties": []
+},
+{
+"id": "20246051",
+"name": "Elegant Red & Blush Vase Arrangement",
+"slug": "elegant-red-blush-vase-arrangement",
+"desc": "XARR25 A timeless mix of romance and softness, this luxury vase arrangement features rich red roses paired with delicate blush blooms and fresh seasonal accents. Designed in a naturally garden-style shape, it includes textured greenery and eucalyptus that gently spill outward, giving it a full, airy, and sophisticated look. The deep red tones bring warmth and passion, while the pastel florals add balance and grace\u2014perfectly arranged in a stylish keepsake vase for a ready-to-display gift.",
+"note": "Please note: Flower varieties may vary slightly depending on seasonal availability, but the overall colour palette and style will always be maintained. If you have a preferred shade or specific flowers in mind, leave a note with your order or message us\u2014we\u2019re happy to personalize where possible.",
+"cats": [
+"Corporate Flowers",
+"Rose Bouquets",
+"Subscription Flowers",
+"Bouquets",
+"Hatboxes"
+],
+"tiers": [
+{
+"label": "Standard (As shown in image)",
+"price": 59.99
+},
+{
+"label": "Large",
+"price": 80.0
+}
+],
+"img": "/img/products/20246051.jpg",
+"varieties": [
+"rose",
+"eucalyptus"
+]
+},
+{
+"id": "20246054",
+"name": "Red Rose Hand tied Bouquet",
+"slug": "red-rose-hand-tied-bouquet",
+"desc": "Or add something extra: Teddy Bear \u00a313.99 Select Champagne and Salted Caramel Truffles Gift Set \u00a349.00 Select Red Rose Hand tied Bouquet VAL Want to woo someone with flowers? This is how you do it. Our artisan florists spiral no less than twelve red roses in the hand to create this magnificent bunch. It's then beautifully gift-wrapped and hand-delivered for a truly magical doorstep moment. About this gift: An expertly hand-crafted bouquet of 12 red roses Beautifully presented in kind-to-the-planet packaging A safe choice for pet owners and hay fever sufferers Contactless delivery for your peace of mind Make it extra special by adding a finishing touch at the checkout",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets",
+"Romance",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "12 Roses",
+"price": 70.0
+},
+{
+"label": "18 Roses",
+"price": 99.99
+},
+{
+"label": "24 Roses",
+"price": 125.0
+}
+],
+"img": "/img/products/20246054.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246055",
+"name": "50 Red Rose Grand Gesture +Free Gift Hamper",
+"slug": "50-red-rose-grand-gesture-free-gift-hamper",
+"desc": "VAL Love is in the air, and what better way to spoil your Valentine than with the ultimate romantic gesture of sending red roses? Designed for our special Valentine\u2019s Flowers Collection, our Dazzling 50 Red Roses Bouquet is created using premium large red roses such as Freedom or Naomi varieties\u2014chosen for their beauty, high petal count, and velvet ruby red colour. Our florists add gorgeous green foliage for texture, before carefully wrapping it in pretty kraft paper and tying it with ribbon. A truly luxurious red rose bouquet, that will dazzle them with love when we deliver on February 14th! Sending roses have a beautiful sentiment behind them, conveying deep emotions of love, devotion, and admiration. And sending 50 red roses has the hidden meaning of \u2018I love you unconditionally\u2019, such a sweet message to send your true love.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). - With Free Valentine Gift Hamper Quantity",
+"cats": [
+"Rose Bouquets",
+"Romance",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 250.0
+}
+],
+"img": "/img/products/20246055.jpg",
+"varieties": [
+"rose",
+"foliage"
+]
+},
+{
+"id": "20246056",
+"name": "Romantic Premium Naomi Red Roses Package with Teddy, Chocolates  and Balloons Cluster",
+"slug": "romantic-premium-naomi-red-roses-package-with-teddy-chocolates-and-balloons-cluster",
+"desc": "VAL This stunning package includes premium red roses , beautifully hand-tied and finished with elegant wrapping, paired with a soft cuddly teddy bear and a box of chocolates for the sweetest touch. To complete the look, we add a gorgeous cluster of heart balloons , creating a bold and romantic display that\u2019s perfect for birthdays, anniversaries, or just because. What\u2019s included: Premium Red Roses (hand-tied bouquet) Teddy Bear (soft & cuddly) Box of Chocolates Balloon Cluster (heart balloons) A complete gift that says \u201cI love you\u201d in the most beautiful way. Nuts & Allergy Information",
+"note": "Please note: Our chocolates may contain nuts and are produced in environments where nuts, peanuts, milk, soy, gluten, and other allergens may be present. While we take care when handling all items, we cannot guarantee that any product is completely free from traces of allergens due to cross-contamination during manufacturing and packing. If you or the recipient has a serious allergy , please contact us before ordering so we can advise you as best as possible. (Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets"
+],
+"tiers": [
+{
+"label": "12 premium Naomi Red Roses + Teddy + Balloons + Lindt Chocolate",
+"price": 99.99
+},
+{
+"label": "18 premium Naomi Red Roses + Teddy + Balloons + Lindt Chocolate",
+"price": 130.0
+},
+{
+"label": "24 premium Naomi Red Roses + Teddy + Balloons + Lindt Chocolate",
+"price": 180.0
+},
+{
+"label": "50 premium Naomi Red  Roses + Teddy + Balloons + Lindt Chocolate",
+"price": 299.99
+}
+],
+"img": "/img/products/20246056.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246057",
+"name": "Luxury Romance Gift Set",
+"slug": "luxury-romance-gift-set",
+"desc": "Or add something extra: Red Rose Hand tied Bouquet \u00a370.00 Select Romantic Brights Bouquet \u00a345.00 Select Bouquet \u00a350 \u00a350.00 Select Luxury Romance Gift Set VAL Make Valentine\u2019s Day extra special with our Luxury Valentine\u2019s Gift Hamper , a beautiful romantic surprise that\u2019s ready to gift and guaranteed to impress. This elegant hamper is presented in a wicker basket , carefully wrapped in clear cellophane and finished with a stunning red ribbon bow . Inside, you\u2019ll find a delicious box of Lindt Lindor chocolates , a cute teddy bear (small) , and a celebratory bottle of Prosecco (brand may vary depending on availability) . To complete the look, we include 3 red heart balloons , adding the perfect finishing touch for a memorable Valentine\u2019s surprise.",
+"note": "Please note: Roses are not included in this hamper. What\u2019s included: Bottle of Prosecco (brand may vary) Lindt Lindor Chocolates Teddy Bear (colour may very) 3 Heart Balloons Luxury Wicker Basket with Cellophane & Ribbon Finish Perfect for Valentine\u2019s Day , anniversaries, birthdays, or simply to say \u201cI love you.\u201d (Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+}
+],
+"img": "/img/products/20246057.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246058",
+"name": "Valentines Day Balloon",
+"slug": "valentines-day-balloon",
+"desc": "Or add something extra: Red Rose Hand tied Bouquet \u00a370.00 Select Valentines Bouquet in a Vase \u00a385.00 Select Valentines Day Balloon VAL 18\" balloon.",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 7.99
+}
+],
+"img": "/img/products/20246058.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246060",
+"name": "Canti Prosecco Gift Set",
+"slug": "canti-prosecco-gift-set",
+"desc": "VAL",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). Quantity",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 10.99
+}
+],
+"img": "/img/products/20246060.jpg",
+"varieties": []
+},
+{
+"id": "20246061",
+"name": "Teddy 135 cm",
+"slug": "teddy-135-cm",
+"desc": "Or add something extra: Red Rose Hand tied Bouquet \u00a370.00 Select Teddy 135 cm",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). Quantity",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 24.99
+}
+],
+"img": "/img/products/20246061.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246064",
+"name": "Mix Flowers Gift Box",
+"slug": "mix-flowers-gift-box",
+"desc": "VAL A beautiful hand-tied bouquet featuring red roses, soft pink blooms, and fresh greenery , presented in a stylish \u201cLove You\u201d gift bag . Perfect for Valentine\u2019s Day, anniversaries, or a romantic surprise.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets",
+"Romance",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand",
+"price": 59.99
+}
+],
+"img": "/img/products/20246064.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246065",
+"name": "6 Red Rose Gift Box",
+"slug": "6-red-rose-gift-box",
+"desc": "VAL",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information). Quantity",
+"cats": [
+"Rose Bouquets",
+"Romance",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+}
+],
+"img": "/img/products/20246065.jpg",
+"varieties": []
+},
+{
+"id": "20246067",
+"name": "Wine & Blooms Hat Box",
+"slug": "wine-blooms-hat-box",
+"desc": "VAL Wine & Blooms Hat Box A stunning luxury hat box arrangement combining fresh roses and elegant greenery , beautifully finished with delicate filler flowers and a stylish ribbon. Each hat box includes a bottle of wine nestled perfectly in the centre, creating a classy and romantic gift for birthdays, anniversaries, Valentine\u2019s Day, or any special celebration. Available in: Red Rose Wine Hat Box \u2013 rich and romantic Pink Rose Wine Hat Box \u2013 soft and elegant",
+"note": "Please note: Wine brand may vary depending on availability. Hat box colour and ribbon style may also vary slightly, but the overall design and value will always be matched. (Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Rose Bouquets",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Medium - Red Roses Hat Box with wine",
+"price": 70.0
+},
+{
+"label": "Large - Red Roses Hat Box with wine",
+"price": 99.99
+},
+{
+"label": "Medium - Pink Roses Hat Box with wine",
+"price": 70.0
+},
+{
+"label": "Large- Pink Roses Hat Box with wine",
+"price": 99.99
+}
+],
+"img": "/img/products/20246067.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246068",
+"name": "Hat Box (Seasonal Mix)",
+"slug": "hat-box-seasonal-mix",
+"desc": "VAL Bright, bold, and full of life \u2014 our Vibrant Mixed Colour Hat Box is the perfect gift for any occasion. Each arrangement is expertly hand-designed using a fresh seasonal mix of flowers in vibrant colours , including roses and complementary blooms, finished with lush greenery for a beautifully full look. Every hat box is unique , making it a stunning surprise for birthdays, celebrations, thank you gifts, or just to brighten someone\u2019s day. \u2705 Available in 3 sizes: Small Medium Large \ud83c\udfa8",
+"note": "Please note: Flower varieties and colours may vary depending on seasonal availability, but we will always keep the same vibrant style and value. Hat box colour and ribbon may also vary.",
+"cats": [
+"Bouquets",
+"Hatboxes"
+],
+"tiers": [
+{
+"label": "Small",
+"price": 45.0
+},
+{
+"label": "Medium",
+"price": 58.0
+},
+{
+"label": "Large",
+"price": 75.0
+}
+],
+"img": "/img/products/20246068.jpg",
+"varieties": [
+"rose"
+]
+},
+{
+"id": "20246070",
+"name": "Mother's Day Bright Gift Box",
+"slug": "mother-s-day-bright-gift-box",
+"desc": "",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Medium",
+"price": 40.0
+},
+{
+"label": "Large",
+"price": 50.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246071",
+"name": "Pastel Hand Tied",
+"slug": "pastel-hand-tied",
+"desc": "MD",
+"note": "",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand",
+"price": 59.0
+},
+{
+"label": "Superior",
+"price": 75.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246072",
+"name": "Mother's Day Bright Gift Box",
+"slug": "mother-s-day-bright-gift-box",
+"desc": "MD",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 40.0
+},
+{
+"label": "Grand",
+"price": 50.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246073",
+"name": "Mother's Day Bright Hand tied",
+"slug": "mother-s-day-bright-hand-tied",
+"desc": "MD",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 56.0
+},
+{
+"label": "Grand",
+"price": 66.0
+},
+{
+"label": "Superior",
+"price": 75.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246074",
+"name": "Mother's Day Bright Hand tied",
+"slug": "mother-s-day-bright-hand-tied",
+"desc": "MD",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 69.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246076",
+"name": "Timeless Mum",
+"slug": "timeless-mum",
+"desc": "\u00a3100.0 - Grand",
+"note": "",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 85.0
+}
+],
+"img": "/img/products/20246076.jpg",
+"varieties": []
+},
+{
+"id": "20246077",
+"name": "Queen Mum",
+"slug": "queen-mum",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [],
+"tiers": [
+{
+"label": "Standard",
+"price": 125.0
+},
+{
+"label": "Grand",
+"price": 150.0
+}
+],
+"img": "/img/products/20246077.jpg",
+"varieties": []
+},
+{
+"id": "20246078",
+"name": "Cream and White Hand Tied",
+"slug": "cream-and-white-hand-tied",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 75.0
+},
+{
+"label": "Grand",
+"price": 85.0
+},
+{
+"label": "Superior",
+"price": 99.0
+}
+],
+"img": "/img/products/20246078.jpg",
+"varieties": []
+},
+{
+"id": "20246079",
+"name": "Bright Lily  Bouquet",
+"slug": "bright-lily-bouquet",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 45.0
+},
+{
+"label": "Grand",
+"price": 60.0
+},
+{
+"label": "Superior",
+"price": 75.0
+}
+],
+"img": "/img/products/20246079.jpg",
+"varieties": []
+},
+{
+"id": "20246081",
+"name": "Radiant Joy Basket",
+"slug": "radiant-joy-basket",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Orange, Purple & Coral Basket (Vibrant Mixed)",
+"price": 75.0
+},
+{
+"label": "Pink Luxury Basket",
+"price": 75.0
+},
+{
+"label": "Pink, Purple  Flowers Basket",
+"price": 75.0
+}
+],
+"img": "/img/products/20246081.jpg",
+"varieties": []
+},
+{
+"id": "20246082",
+"name": "Luxury Pastel Hand Tied Bouquet",
+"slug": "luxury-pastel-hand-tied-bouquet",
+"desc": "This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Romance",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 250.0
+}
+],
+"img": "/img/products/20246082.jpg",
+"varieties": []
+},
+{
+"id": "20246083",
+"name": "Luxury  Neutral  Hand Tied Bouquet",
+"slug": "luxury-neutral-hand-tied-bouquet",
+"desc": "This item requires 1 days notice to order.",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 220.0
+},
+{
+"label": "Grand",
+"price": 350.0
+},
+{
+"label": "Superior",
+"price": 500.0
+}
+],
+"img": "/img/products/20246083.jpg",
+"varieties": []
+},
+{
+"id": "20246084",
+"name": "Luxury  Bright  Hand Tied Bouquet",
+"slug": "luxury-bright-hand-tied-bouquet",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 220.0
+},
+{
+"label": "Grand",
+"price": 350.0
+},
+{
+"label": "Superior",
+"price": 500.0
+}
+],
+"img": "/img/products/20246084.jpg",
+"varieties": []
+},
+{
+"id": "20246085",
+"name": "My Favourite",
+"slug": "my-favourite",
+"desc": "This item requires 2 days notice to order.",
+"note": "",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 500.0
+}
+],
+"img": null,
+"varieties": []
+},
+{
+"id": "20246086",
+"name": "Bright Flowers in Vase",
+"slug": "bright-flowers-in-vase",
+"desc": "",
+"note": "Please note this item is only available in our local delivery area. See our delivery page for more information).",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 65.0
+}
+],
+"img": "/img/products/20246086.jpg",
+"varieties": []
+},
+{
+"id": "20246087",
+"name": "Neutral Flowers in Vase",
+"slug": "neutral-flowers-in-vase",
+"desc": "",
+"note": "",
+"cats": [
+"Sympathy",
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 65.0
+}
+],
+"img": "/img/products/20246087.jpg",
+"varieties": []
+},
+{
+"id": "20246088",
+"name": "Pastel Flowers in Vase",
+"slug": "pastel-flowers-in-vase",
+"desc": "",
+"note": "",
+"cats": [
+"Bouquets"
+],
+"tiers": [
+{
+"label": "Standard",
+"price": 50.0
+},
+{
+"label": "Grand",
+"price": 65.0
+}
+],
+"img": "/img/products/20246088.jpg",
+"varieties": []
+}
+]
+}
