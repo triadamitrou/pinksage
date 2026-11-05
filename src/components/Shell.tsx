@@ -89,6 +89,18 @@ export default function Shell({ children }: { children: ReactNode }) {
           })}
         </ul>
 
+        <div className="border-line mt-3 hidden border-t px-3 pt-3 lg:block">
+          {/* The other half. A florist who can see what a change does to
+              the shop front is a florist who will make the change. */}
+          <Link
+            href="/shop"
+            className="text-ink-2 hover:bg-line-2 flex items-baseline justify-between gap-2 rounded-md px-3 py-2"
+          >
+            <span className="text-[0.88rem]">The website</span>
+            <span className="text-ink-3 text-[0.7rem]">opens the shop</span>
+          </Link>
+        </div>
+
         <div className="text-ink-3 mt-auto hidden px-6 pt-6 text-[0.7rem] leading-relaxed lg:block">
           <p>{shop.legal}</p>
           <p>

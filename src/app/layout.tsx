@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Shell from "@/components/Shell";
 import { StudioProvider } from "@/lib/store";
 
 /**
@@ -28,12 +27,13 @@ const opensans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pink Sage Studio",
-    template: "%s | Pink Sage Studio",
+    default: "Pink Sage Flowers",
+    template: "%s | Pink Sage Flowers",
   },
   description:
-    "The back office for pinksage.co.uk: products, prices, recipes, flower stock and what the shop front says is available.",
-  // A private tool, and a mock up besides. It has no business in search.
+    "Florist on Rother Street, Stratford-upon-Avon. Hand tied bouquets, funeral tributes and gifts, delivered across Warwickshire.",
+  // A mock up of somebody else's shop. It has no business in search,
+  // whichever half of it is being looked at.
   robots: { index: false, follow: false },
 };
 
@@ -41,9 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB" className={`${baskerville.variable} ${opensans.variable}`}>
       <body>
-        <StudioProvider>
-          <Shell>{children}</Shell>
-        </StudioProvider>
+        <StudioProvider>{children}</StudioProvider>
       </body>
     </html>
   );

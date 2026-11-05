@@ -268,3 +268,178 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ===================================================================
+   The shop front.
+
+   The back office above is 14px and dense, because it is read at speed
+   in a shop. This is the opposite problem: one person, one decision,
+   usually sad or celebratory, often on a phone. So it gets air, a real
+   display size for the serif, and photographs that are allowed to be
+   the largest thing on the page.
+
+   Same two typefaces and the same sage, because they are the shop's
+   own. Nothing new is invented here.
+   =================================================================== */
+@layer components {
+  .shopfront {
+    font-size: 1rem;
+    line-height: 1.6;
+    /* The sticky header's exact height, so the filter bar underneath can
+       sit flush against it instead of leaving a sliver of the page
+       showing through a four pixel gap. */
+    --shop-bar: 4.0625rem;
+  }
+
+  .s-bar {
+    height: var(--shop-bar);
+  }
+
+  /* The shelf chips scroll sideways on a narrow screen. The fade says so
+     without a scrollbar, which macOS hides until something moves. */
+  .s-scroller {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 2rem), transparent 100%);
+  }
+  .s-scroller::-webkit-scrollbar {
+    display: none;
+  }
+
+  .s-wrap {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 78rem;
+    padding-inline: clamp(1rem, 4vw, 2.5rem);
+  }
+
+  /* Display type ---------------------------------------------------- */
+  .s-display {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    font-size: clamp(2.1rem, 5.2vw, 3.4rem);
+  }
+  .s-h2 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    font-size: clamp(1.45rem, 2.6vw, 2rem);
+  }
+  .s-h3 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+    font-size: 1.15rem;
+  }
+  .s-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-sage-mid);
+  }
+
+  /* Buttons, a size up from the back office's ----------------------- */
+  .s-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.875rem;
+    padding-inline: 1.375rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-sage-pale);
+    background: var(--color-panel);
+    color: var(--color-ink);
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 180ms, border-color 180ms, color 180ms;
+  }
+  .s-btn:hover:not(:disabled) {
+    background: var(--color-sage-wash);
+    border-color: var(--color-sage-mid);
+  }
+  .s-btn--go {
+    background: var(--color-sage-deep);
+    border-color: var(--color-sage-deep);
+    color: #fff;
+  }
+  .s-btn--go:hover:not(:disabled) {
+    background: var(--color-sage-mid);
+    border-color: var(--color-sage-mid);
+    color: #fff;
+  }
+  .s-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* A filter chip --------------------------------------------------- */
+  .s-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 2.25rem;
+    padding-inline: 0.875rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-line);
+    background: var(--color-panel);
+    color: var(--color-ink-2);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background-color 150ms, border-color 150ms, color 150ms;
+  }
+  .s-chip:hover {
+    border-color: var(--color-sage-pale);
+    background: var(--color-sage-wash);
+  }
+  .s-chip[aria-pressed="true"],
+  .s-chip[data-on="true"] {
+    background: var(--color-sage-deep);
+    border-color: var(--color-sage-deep);
+    color: #fff;
+  }
+  .s-chip__n {
+    font-variant-numeric: tabular-nums;
+    opacity: 0.6;
+    font-weight: 500;
+  }
+
+  /* The photograph frame -------------------------------------------- */
+  .s-frame {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: var(--color-sage-wash);
+    aspect-ratio: 4 / 5;
+  }
+  .s-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 600ms var(--ease-out-quint);
+  }
+  .s-card:hover .s-frame img {
+    transform: scale(1.035);
+  }
+
+  /* Anything that is a mock up says so, wherever it is seen. */
+  .s-mock {
+    background: var(--color-amber-wash);
+    color: var(--color-amber);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-amber) 25%, transparent);
+    font-size: 0.78rem;
+  }
+}
+
+/* The shop front is read on a phone more than anything else, so taps
+   get a target even where the design is quiet. */
+@media (hover: none) {
+  .s-card:hover .s-frame img {
+    transform: none;
+  }
+}

@@ -98,3 +98,65 @@ and its connection into Strelitzia is kept.
    buckets.
 5. Thirty-five products are uncategorised, because they sit in categories
    that are not in the public sitemap.
+
+## The shop front
+
+`/shop` is the customer-facing website, built from the same
+`catalogue.json` the dashboard reads, so the two halves cannot drift
+apart. It is a route group, so the dashboard's own paths are unchanged.
+
+### What was wrong with the catalogue
+
+The live site has **22 flat categories, 35 products in none of them, and
+no level above any of it**. Funeral work is 108 of the 198, split across
+eleven separate top-level categories - Casket Sprays, Sheaves, Hearts,
+Crosses, Wreath, Spray, Posies and Pillows, Specialist Tributes, Service
+Arrangements, Funeral Finishing Touches, Sympathy - each sitting in the
+menu at the same level as Chocolates.
+
+`src/lib/shelf.ts` gives every product **exactly one home** in four
+sections, so there is always a single answer to "where does this live":
+
+| Section | Products | Shelves |
+|---|---|---|
+| Flowers | 62 | Hand tied, roses, vases, hatboxes, posies, subscriptions, corporate |
+| Funeral tributes | 105 | Sprays, sheaves, wreaths, hearts, crosses, posies and pillows, lettering, finishing touches |
+| Gifts | 31 | Champagne, chocolates, small gifts, balloons, teddies, plants, cards, workshops |
+| Weddings and events | 0 | Enquiry only; the shop publishes no prices for it |
+
+Collections sit on top of that, not instead of it: a Mother's Day hatbox
+is filed with the other hatboxes **and** appears on the Mother's Day
+page. Filing it under one or the other is what produced the mess.
+
+The shop's own categories are trusted first; the name and copy are read
+only for the 35 that were never filed. Nothing falls through silently -
+`classify()` returns null when no rule matches, and all 198 match.
+
+### The copy
+
+47 of the 198 descriptions arrived from the scrape with the page
+furniture glued to them - an upsell panel, the product's own name
+repeated, the colour dropdown, an internal code like `MDHBOXP1`.
+`src/lib/clean.ts` strips those at render. It only ever **removes**:
+what shows on the shop front is a subset of what Pink Sage already
+wrote, and the scraped original stays verbatim in `catalogue.json` so
+anybody can check it.
+
+### What the shop front can do that the live one cannot
+
+- **"Only 2 left" and "Sold out today"**, read from the florist's own
+  stem counts rather than from somebody remembering to edit the website.
+  Four of the five availability states show nothing at all: a product
+  with no recipe is unmeasured, not sold out.
+- **Sizes as buttons with prices on their faces.** 86 of the 198 come in
+  more than one size, and the live site hides the prices in a dropdown.
+- **What goes into it**, listed from their own copy.
+- **The same-day cut off in the header**, which on the live site is four
+  clicks away at the bottom of a table.
+
+### Where it stops
+
+The basket is real and works. The checkout is not built, deliberately -
+taking payment, the delivery date and the card message is the part that
+belongs to the shop front Pink Sage already pays for, and whether that
+stays floristPro or moves is the question still open.

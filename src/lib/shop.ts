@@ -65,3 +65,61 @@ export const provenance = {
   source: "pinksage.co.uk",
   products: 198,
 };
+
+/**
+ * Opening hours, exactly as pinksage.co.uk/contact-us.htm publishes them,
+ * read on 5 November 2026. Indexed 0 for Sunday, to match Date.getDay.
+ */
+export type Hours = { open: string; close: string } | null;
+export const hours: Hours[] = [
+  null,
+  { open: "09:00", close: "17:00" },
+  { open: "09:00", close: "17:00" },
+  { open: "09:00", close: "17:00" },
+  { open: "09:00", close: "17:00" },
+  { open: "09:00", close: "17:30" },
+  { open: "09:00", close: "17:30" },
+];
+
+/**
+ * Delivery, from pinksage.co.uk/delivery-info.htm, read 5 November 2026.
+ *
+ * The same-day cut off is the single most useful thing on that page and
+ * on the live site it is four clicks from the home page, below a table.
+ * Here it goes in the header.
+ */
+export const delivery = {
+  cutoff: "3pm",
+  window: "10am to 6pm, Monday to Saturday",
+  radius: "12 miles",
+  freeWithin: "1 mile",
+  sunday: "By arrangement, ordered in advance",
+  collectFrom: "10am to 5pm",
+  bands: [
+    {
+      band: "Within 5 miles of CV37 6LP",
+      rows: [
+        { when: "Next or future day", price: "£7.50" },
+        { when: "Same day, before noon", price: "£10" },
+        { when: "Same day, any time", price: "£7.50" },
+        { when: "Sunday, by arrangement", price: "£10" },
+      ],
+    },
+    {
+      band: "Between 5 and 10 miles of CV37 6LP",
+      rows: [
+        { when: "Next or future day", price: "£10" },
+        { when: "Same day, before noon", price: "£15" },
+        { when: "Same day, any time", price: "£10" },
+        { when: "Sunday, by arrangement", price: "£10" },
+      ],
+    },
+  ],
+  /** Their own list, in their own order. */
+  places: `Admington; Alcester; Alderminster; Alveston; Armscote; Arrow; Aston Cantlow; Atherstone on Stour; Bearley; Bidford on Avon; Billesley; Binton; Bishopton; Black Hill; Braggington; Bridgetown; Broom; Charlecote; Claverdon; Cleeve Prior; Clifford Chambers; Compton Verney; Coughton; Dodwell; Dorsington; Ettington; Great Alne; Halford; Hampton Lucy; Henley in Arden; Ilmington; Langley; Long Marston; Loxley; Luddington; Mickleton; Milcote; Newbold on Stour; Norton Lindsey; Old Town; Pathlow; Pebworth; Preston Bagot; Preston on Stour; Quinton; Salford Priors; Shottery; Snitterfield; Stratford upon Avon; Temple Grafton; Tiddington; Upper Billesley; Ullenhall; Walton; Wasperton; Welford on Avon; Wellesbourne; Weston on Avon; Wilmcote; Wixford; Wolverton; Wootton Wawen`
+    .split(";")
+    .map((s) => s.trim())
+    .filter(Boolean),
+  beyond:
+    "Deliveries outside these areas are sent through one of our partner networks, Interflora or D2Florist.",
+} as const;

@@ -100,3 +100,39 @@ function readToday(): Date {
   }
   return cached;
 }
+
+/**
+ * The wall clock, read in the browser only.
+ *
+ * Same reasoning as useToday, one step finer: the shop front wants to
+ * say "open until 17:30" or "closed now", which needs the time and not
+ * just the date. Returns null until the browser takes over, so nothing
+ * about opening hours is ever baked into prerendered HTML.
+ *
+ * The snapshot has to keep its identity between renders or
+ * useSyncExternalStore loops, so it is cached and only replaced when the
+ * minute changes. Nothing subscribes to the tick: a header that is sixty
+ * seconds stale has never cost anybody an order, and re-rendering the
+ * whole shop every second to avoid it would.
+ */
+export type Clock = { day: number; minutes: number };
+
+export function useClock(): Clock | null {
+  return useSyncExternalStore(noClockUpdates, readClock, () => null);
+}
+
+let clock: Clock | null = null;
+let clockKey = -1;
+function readClock(): Clock {
+  const now = new Date();
+  const minutes = now.getHours() * 60 + now.getMinutes();
+  if (minutes !== clockKey || !clock) {
+    clockKey = minutes;
+    clock = { day: now.getDay(), minutes };
+  }
+  return clock;
+}
+
+/** "09:00" as minutes past midnight. */
+export const atMinute = (hhmm: string) =>
+  Number(hhmm.slice(0, 2)) * 60 + Number(hhmm.slice(3, 5));
